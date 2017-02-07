@@ -1,0 +1,86 @@
+.barra_superior
+{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-end;
+  width: 1250px;
+  height: 30px;
+  background-color: gray;
+}
+.inicio_sesion
+{
+  display: -webkit-flex;
+  display: flex;
+  background-color: transparent;
+  width: 1250px;
+  height: 15px;
+  margin: 5px;
+}
+.borde_izq
+{
+  width: 400px;
+  height: 15px;
+  margin-top: 0px;
+}
+.borde_centro
+{
+  width: 400px;
+  height: 15px;
+  margin-top: 0px;
+}
+.borde_final
+{
+  width: 400px;
+  height: 15px;
+  margin-top: 0px;
+}
+.barra_superior_second
+{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-end;
+  width: 1250px;
+  height: 50px;
+  background-color: white;
+}
+.logo_cap
+{
+  background-color: transparent;
+  width: 625px;
+  height: 25px;
+  margin: 10px;
+}
+.opciones_busqueda
+{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-center;
+  width: 1250px;
+  height: 60px;
+  background-color: black;
+}
+.opcion {
+  background-color: transparent;
+  width: 250px;
+  height: 50px;
+  margin: 10px;
+  color: white;
+}
+.Hombre
+{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 1250px;
+  height: 680px;
+  background-color: grey;
+}
+.foto
+{
+  background-color: lightgrey;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  color: white;
+}
