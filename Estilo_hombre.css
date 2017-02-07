@@ -18,18 +18,21 @@
 }
 .borde_izq
 {
+  background-color: transparent;
   width: 400px;
   height: 15px;
   margin-top: 0px;
 }
 .borde_centro
 {
+  background-color: transparent;
   width: 400px;
   height: 15px;
   margin-top: 0px;
 }
 .borde_final
 {
+  background-color: transparent;
   width: 400px;
   height: 15px;
   margin-top: 0px;
@@ -74,13 +77,86 @@
   flex-wrap: wrap;
   width: 1250px;
   height: 680px;
-  background-color: grey;
+  background-color: #CAE1FF;
+  margin-bottom: 10px;
 }
 .foto
 {
-  background-color: lightgrey;
+  background-color: #273958;
   width: 300px;
   height: 300px;
   margin: 5px;
   color: white;
 }
+.Mantente_dia
+{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  width: 1250px;
+  height: 60px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+.busqueda
+{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  width: 1250px;
+  height: 50px;
+  margin: 10px;
+  color: white;
+}
+.caja_nomBus{
+  width: 50px;
+  height: 20px;
+  margin: 10px;
+  color: white;
+  background-color: black;
+  }
+.caja_bus
+{
+  width: 500px;
+  height: 20px;
+  margin: 10px;
+  color: white;
+  background-color: white;
+}
+.Final_pag
+{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 1250px;
+  height: 250px;
+  background-color: lightgray;
+  margin: 10;
+}
+
+.anuncios
+{
+  background-color: gray;
+  width: 300px;
+  height: 200px;
+  color: red;
+  margin: 5px;
+}
+.pie2
+{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex;
+  width: 1250px;
+  height: 50px;
+  background-color: white;
+}
+.derechos
+{
+  width: 900px;
+  height: 80px;
+  color: black;
+}
+
