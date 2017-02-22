@@ -1,0 +1,139 @@
+.contenedor
+{
+  width: 1250px;
+  height: 1200px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+
+}
+.barra_superior
+{
+  display: flex;
+  display: -webkit-flex;
+  width: 1250px;
+  height: 100px;
+  background-color: white;
+  justify-content: flex-start;
+}
+.logo_cap
+{
+  width: 200px;
+  height: 50px;
+  background-color: white;
+  color: black;
+}
+.checkout
+{
+  width: 500px;
+  height: 50px;
+  background-color: white;
+  color: black;
+}
+.direccion_envio
+{
+  display: flex;
+  display: -webkit-flex;
+  width: 1250px;
+  height: 700px;
+  justify-content: flex-start;
+  border-radius: 7px;
+
+}
+.envio
+{
+  display: flex;
+  flex-direction: column;
+  width: 700px;
+  height: 625px;
+  margin: 5px;
+  align-items: stretch;
+  background-color: white;
+  border-radius: 8px;
+}
+#Nombre
+{
+  background-color: transparent;
+  width: 650px;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+#Apellidos
+{
+  background-color: transparent;
+  width: 650px;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+#Num_telf
+{
+  background-color: transparent;
+  width: 650px;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+#Direccion
+{
+  background-color: transparent;
+  width: 650px;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+#Entre_calles
+{
+  background-color: transparent;
+  width: 650px;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+#Colonia
+{
+  background-color: transparent;
+  width: 650px;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+#Ciudad
+{
+  background-color: transparent;
+  width: 650px;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+#Codigo_post
+{
+  background-color: transparent;
+  width: 650px;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+#Estado
+{
+  background-color: transparent;
+  width: 650px;
+  height: 20px;
+  margin: 5px;
+  padding: 5px;
+}
+#Registro_check
+{
+width: 100px;
+height: 35px;
+padding: 5px;
+}
+.info_envios
+{
+  width: 800px;
+  height: 30px;
+  padding: 5px;
+
+}
