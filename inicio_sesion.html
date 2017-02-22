@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>Caps & Clothes GDL</title>
-  <link rel="stylesheet" type="text/css" href="css/Estilo_hombre.css"/>
+  <link rel="stylesheet" type="text/css" href="css/inicio_sesion.css"/>
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
   <div class="barra_superior">
     <div class="inicio_sesion">
@@ -40,33 +40,39 @@
       <a href="Hombre.html">HOMBRE</a>
     </div>
     <div class="opcion">
-        <a href="Accesorios.html">ACCESORIOS</a>
+      <a href="Accesorios.html">
+      ACCESORIOS
+      </a>
     </div>
     <div class="opcion">
       BRAND
     </div>
   </div>
-    <div class="Hombre">
-      <div class="foto">
-        <img src="image/hombre/gorra_adidas_1.png">
+    <div class="caja_mayor">
+      <div class="caja_01">
+        <div class="uno">
+          <h1>LOGIN O CREA UNA CUENTA !!</h1>
+        </div>
+        <div class="dos">
+          <a href="registro.html" class="FAQs" >
+          <button type="submit" id="Registrar" name="registro"> Crear cuenta </button>
+        </a>
+        </div>
       </div>
-      <div class="foto">
-        <img src="image/hombre/gorra_adidas_2.png" />
-      </div>
-      <div class="foto">
-        <img src="image/hombre/jeans_adidas.png" />
-      </div>
-      <div class="foto">
-        <img src="image/hombre/nike_shirt.png" />
-      </div>
-      <div class="foto">
-        <img src="image/hombre/shoes_adidas.png" />
-      </div>
-      <div class="foto">
-        <img src="image/hombre/nike_shoes.png" />
+      <div class="caja_02">
+        <div class="tres">
+          <form  action="inicio_sesion.html" method="post">
+            <label for="identificador" id="ident_label">Usuario </label>
+            <input type="text" name="identificador" id="identificador" placeholder="Escribe tu ID"/>
+            <label for="Password" id="passw_label">Password </label>
+            <input type="password" name="password" id="password" placeholder="Escribe tu PASSWORD!!"/>
+          </form>
+        </div>
+        <div class="cuatro">
+          <button type="submit" id="Ingresar" name="Ingresar"> Ingresar </button>
+        </div>
       </div>
     </div>
-
     <div class="Mantente_dia">
       <div class="busqueda">
         <div class="caja_nomBus">

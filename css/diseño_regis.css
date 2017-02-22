@@ -1,0 +1,309 @@
+*{
+font-family: monospace;
+}
+
+.contenedor
+{
+  width: 1250px;
+  height: 1080px;
+  justify-content: center;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.barra_superior
+{
+  width: 100%;
+  height: 37px;
+  background-color: black;
+  justify-content: flex-end;
+  border-radius: 7px;
+  font-family: monospace;
+  color: white;
+}
+.inicio_sesion
+{
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 15px;
+  margin: 5px;
+  background-color: transparent;
+}
+.borde_izq
+{
+  width: 60%;
+  height: 15px;
+  background-color: transparent;
+  padding: 5px;
+  margin: 3px;
+}
+.borde_centro
+{
+  width: 20%;
+  height: 15px;
+  background-color: transparent;
+  margin: 3px;
+}
+.borde_final
+{
+  width: 20%;
+  height: 15px;
+  background-color: transparent;
+  margin: 3px;
+}
+.barra_superior_second
+{
+  display: -webkit-flex;
+  display: flex;
+  width: 1250px;
+  height: 200px;
+  background-color: white;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logo_cap
+{
+  width: 200px;
+  height: 190px;
+  color: white;
+  background-color: white;
+  border-radius: 7px;
+  padding-left: 50px;
+}
+.espacio
+{
+  width: 700px;
+  height: 80px;
+  padding: 15px;
+  color: white;
+  background-color: black;
+  justify-content: center;
+  border-radius: 7px;
+  margin: 5px;
+  margin-top: 50px;
+}
+.carrito_com
+{
+  width: 200px;
+  height: 80px;
+  color: black;
+  background-color: white;
+  border-radius: 7px;
+  padding: 15px;
+  margin: 5px;
+  margin-top: 50px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-start;
+}
+.Texto_Carrito{
+  margin-top: 30px;
+  margin-left: 15px;
+}
+
+#bus
+{
+  width: 500px;
+  height: 30px;
+  margin-top: 24px;
+  margin-left: 42px;
+  border-radius: 4px;
+}
+.opciones_busqueda
+{
+  display: -webkit-flex;
+  display: flex;
+  width: 1250px;
+  height: 60px;
+  background-color: black;
+  justify-content: center;
+  border-radius: 8px;
+}
+.opcion {
+  width: 250px;
+  height: 50px;
+  margin: 10px;
+  color: white;
+  justify-content: center;
+  background-color: transparent;
+  padding-top: 10px;
+  padding-left: 40px;
+}
+.registro_general{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: row;
+  flex-direction: row;
+  width: 1250px;
+  height: 400px;
+  margin: 5px;
+  background-color: transparent;
+}
+.registro{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-direction: column;
+  flex-direction: column;
+  width: 600px;
+  height: 350px;
+  margin: 5px;
+  background-color: white;
+}
+#nombre{
+  background-color: transparent;
+  width: 550px;
+  height: 20px;
+  margin: 5px;
+  border-radius: 7px;
+}
+#apellido{
+  background-color: transparent;
+  width: 550px;
+  height: 20px;
+  margin:5px;
+  border-radius: 7px;
+}
+#correo{
+  background-color: transparent;
+  width: 550px;
+  height: 20px;
+  margin: 10px;
+  border-radius: 7px;
+}
+#contraseña{
+  background-color: transparent;
+  width: 550px;
+  height: 20px;
+  margin: 10px;
+  border-radius: 7px;
+}
+#rcontraseña{
+  background-color: transparent;
+  width: 550px;
+  height: 20px;
+  margin: 10px;
+  border-radius: 7px;
+}
+#edad{
+  background-color: transparent;
+  width: 550px;
+  height: 20px;
+  margin: 10px;
+  border-radius: 7px;
+}
+.registro_redes{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 350px;
+  margin: 20px;
+  background-color: white;
+}
+.Mantente_dia
+{
+  display: -webkit-flex;
+  display: flex;
+  width: 1250px;
+  height: 100px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  background-color: black;
+  font-family: monospace;
+  justify-content: center;
+}
+.busqueda
+{
+  display: -webkit-flex;
+  display: flex;
+  width: 1250px;
+  height: 50px;
+  margin: 10px;
+  color: white;
+  background-color: transparent;
+  justify-content: center;
+}
+.caja_nomBus{
+  width: 150px;
+  height: 20px;
+  color: white;
+  background-color: transparent;
+  padding-top: 15px;
+  }
+  .caja_bus
+  {
+    width: 600px;
+    height: 20px;
+    margin: 10px;
+    padding-top: 10px;
+  }
+  #subscripcion
+  {
+    width: 500px;
+    height: 30px;
+    border-radius: 4px;
+  }
+.Final_pag
+{
+  display: -webkit-flex;
+  display: flex;
+  width: 1250px;
+  height: 200px;
+  margin: 10;
+  background-color: lightgray;
+  -webkit-justify-content: center;
+  justify-content: center;
+  font-family: monospace;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.anuncios
+{
+  width: 300px;
+  height: 140px;
+  margin: 5px;
+  justify-content: center;
+  padding-left: 10px;
+  color: black;
+  background-color: white;
+  border-radius: 7px;
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.pie2
+{
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  justify-content: flex;
+}
+.derechos
+{
+  width: 900px;
+  height: 80px;
+  color: white;
+  padding-left: 27%;
+}
+
+.enlaces{
+  width: 1px;
+  height: 1px;
+  margin: 2px;
+}
+a{
+	text-decoration: none;
+  color: white;
+  font-family: monospace;
+}
+a.FAQs{
+	text-decoration: none;
+  color: black;
+  font-family: monospace;
+}
