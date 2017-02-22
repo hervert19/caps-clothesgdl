@@ -1,0 +1,162 @@
+.barra_superior
+{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-end;
+  width: 1250px;
+  height: 30px;
+  background-color: gray;
+}
+.inicio_sesion
+{
+  display: -webkit-flex;
+  display: flex;
+  background-color: transparent;
+  width: 1250px;
+  height: 15px;
+  margin: 5px;
+}
+.borde_izq
+{
+  background-color: transparent;
+  width: 400px;
+  height: 15px;
+  margin-top: 0px;
+}
+.borde_centro
+{
+  background-color: transparent;
+  width: 400px;
+  height: 15px;
+  margin-top: 0px;
+}
+.borde_final
+{
+  background-color: transparent;
+  width: 400px;
+  height: 15px;
+  margin-top: 0px;
+}
+.barra_superior_second
+{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-end;
+  width: 1250px;
+  height: 50px;
+  background-color: white;
+}
+.logo_cap
+{
+  background-color: transparent;
+  width: 625px;
+  height: 25px;
+  margin: 10px;
+}
+.opciones_busqueda
+{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-center;
+  width: 1250px;
+  height: 60px;
+  background-color: black;
+}
+.opcion {
+  background-color: transparent;
+  width: 250px;
+  height: 50px;
+  margin: 10px;
+  color: white;
+}
+.Hombre
+{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 1250px;
+  height: 680px;
+  background-color: #CAE1FF;
+  margin-bottom: 10px;
+}
+.foto
+{
+  background-color: #273958;
+  width: 300px;
+  height: 300px;
+  margin: 5px;
+  color: white;
+}
+.Mantente_dia
+{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  width: 1250px;
+  height: 60px;
+  background-color: black;
+  margin-bottom: 20px;
+}
+.busqueda
+{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  background-color: transparent;
+  width: 1250px;
+  height: 50px;
+  margin: 10px;
+  color: white;
+}
+.caja_nomBus{
+  width: 50px;
+  height: 20px;
+  margin: 10px;
+  color: white;
+  background-color: black;
+  }
+.caja_bus
+{
+  width: 500px;
+  height: 20px;
+  margin: 10px;
+  color: white;
+  background-color: white;
+}
+.Final_pag
+{
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 1250px;
+  height: 250px;
+  background-color: lightgray;
+  margin: 10;
+}
+
+.anuncios
+{
+  background-color: gray;
+  width: 300px;
+  height: 200px;
+  color: red;
+  margin: 5px;
+}
+.pie2
+{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex;
+  width: 1250px;
+  height: 50px;
+  background-color: white;
+}
+.derechos
+{
+  width: 900px;
+  height: 80px;
+  color: black;
+}
+
