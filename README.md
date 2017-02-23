@@ -12,3 +12,17 @@ Desarrolladores:
 Requisitos:
 - Navegador Actualizado (Chrome, Mozilla, Opera y etc)
 
+Sitio Web: 
+http://capandclothesgdl.com/
+
+Licencia:
+
+- G R A T I S  ! ! 
+
+Agradecimientos:
+
+Nancy Michelle Torres
+Desarrolladores
+CUCEI
+
+
