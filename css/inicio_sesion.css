@@ -4,7 +4,7 @@ font-family: monospace;
 
 .contenedor
 {
-  width: 1250px;
+  width: 100%;
   height: 1100px;
   justify-content: center;
   background-color: white;
@@ -56,7 +56,7 @@ font-family: monospace;
 {
   display: -webkit-flex;
   display: flex;
-  width: 1250px;
+  width: 100%;
   height: 200px;
   background-color: white;
   justify-content: center;
@@ -66,7 +66,7 @@ font-family: monospace;
 
 .logo_cap
 {
-  width: 200px;
+  width: 16%;
   height: 190px;
   color: white;
   background-color: white;
@@ -75,7 +75,7 @@ font-family: monospace;
 }
 .espacio
 {
-  width: 700px;
+  width: 56%;
   height: 80px;
   padding: 15px;
   color: white;
@@ -87,7 +87,7 @@ font-family: monospace;
 }
 .carrito_com
 {
-  width: 200px;
+  width: 16%;
   height: 80px;
   color: black;
   background-color: white;
@@ -106,7 +106,7 @@ font-family: monospace;
 
 #bus
 {
-  width: 500px;
+  width: 71.43%;
   height: 30px;
   margin-top: 24px;
   margin-left: 42px;
@@ -116,14 +116,14 @@ font-family: monospace;
 {
   display: -webkit-flex;
   display: flex;
-  width: 1250px;
+  width: 100%;
   height: 60px;
   background-color: black;
   justify-content: center;
   border-radius: 8px;
 }
 .opcion {
-  width: 250px;
+  width: 20%;
   height: 50px;
   margin: 10px;
   color: white;
@@ -136,7 +136,7 @@ font-family: monospace;
 {
   display: -webkit-flex;
   display: flex;
-  width: 1250px;
+  width: 100%;
   height: 450px;
   justify-content: space-between;
   margin-top: 15px;
@@ -150,7 +150,7 @@ font-family: monospace;
 {
   display: -webkit-flex;
   display: flex;
-  width: 580px;
+  width: 46.4%;
   height: 430px;
   flex-direction: column;
   border-radius: 7px;
@@ -161,7 +161,7 @@ font-family: monospace;
 {
   display: -webkit-flex;
   display: flex;
-  width: 580px;
+  width: 100%;
   height: 150px;
   border-radius: 7px;
   justify-content: center;
@@ -172,21 +172,21 @@ font-family: monospace;
 {
   display: -webkit-flex;
   display: flex;
-  width: 580px;
+  width: 200%;
   height: 210px;
   border-radius: 7px;
   padding-left: 200px;
 }
 #Registrar
 {
-  width: 150px;
+  width: 150%;
   height: 50px;
 }
 .caja_02
 {
   display: -webkit-flex;
   display: flex;
-  width: 580px;
+  width: 46.4%;
   height: 430px;
   border-radius: 7px;
   font-size: 20px;
@@ -197,7 +197,7 @@ font-family: monospace;
 {
   display: -webkit-flex;
   display: flex;
-  width: 300px;
+  width: 51.72%;
   height: 210px;
   justify-content: center;
   margin-left: 150px;
@@ -205,7 +205,7 @@ font-family: monospace;
 }
 #identificador
 {
-  width: 250px;
+  width: 100%;
   height: 30px;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -213,27 +213,27 @@ font-family: monospace;
 #password
 {
   margin-top: 10px;
-  width: 250px;
+  width: 100%;
   height: 30px;
 }
 .cuatro
 {
   display: -webkit-flex;
   display: flex;
-  width: 580px;
+  width: 100%;
   height: 210px;
   margin-left: 240px;
 }
 #Ingresar
 {
-width: 80px;
+width: 13.80%;
 height: 35px;
 }
 .busqueda
 {
   display: -webkit-flex;
   display: flex;
-  width: 1250px;
+  width: 100%;
   height: 80px;
   margin: 10px;
   color: white;
@@ -241,7 +241,7 @@ height: 35px;
   justify-content: center;
 }
 .caja_nomBus{
-  width: 150px;
+  width: 12%;
 
   height: 20px;
   color: white;
@@ -250,14 +250,14 @@ height: 35px;
   }
   .caja_bus
   {
-    width: 600px;
+    width: 48%;
     height: 20px;
     margin: 10px;
     padding-top: 10px;
   }
   #subscripcion
   {
-    width: 500px;
+    width: 83.33%;
     height: 30px;
     border-radius: 4px;
   }
@@ -265,7 +265,7 @@ height: 35px;
 {
   display: -webkit-flex;
   display: flex;
-  width: 1250px;
+  width: 100%;
   height: 200px;
   margin: 10;
   background-color: lightgray;
@@ -278,7 +278,7 @@ height: 35px;
 
 .anuncios
 {
-  width: 300px;
+  width: 24%;
   height: 140px;
   margin: 5px;
   justify-content: center;
@@ -300,13 +300,13 @@ height: 35px;
 }
 .derechos
 {
-  width: 900px;
+  width: 72%;
   height: 80px;
   color: white;
   padding-left: 27%;
 }
 .enlaces{
-  width: 1px;
+  width: 0.08%;
   height: 1px;
   margin: 2px;
 }
@@ -314,95 +314,13 @@ height: 35px;
 {
   display: -webkit-flex;
   display: flex;
-  width: 1250px;
+  width: 100%;
   height: 100px;
   margin-bottom: 20px;
   border-radius: 7px;
   background-color: black;
   font-family: monospace;
   justify-content: center;
-}
-.busqueda
-{
-  display: -webkit-flex;
-  display: flex;
-  width: 1250px;
-  height: 50px;
-  margin: 10px;
-  color: white;
-  background-color: transparent;
-  justify-content: center;
-}
-.caja_nomBus{
-  width: 150px;
-  height: 20px;
-  color: white;
-  background-color: transparent;
-  padding-top: 15px;
-  }
-  .caja_bus
-  {
-    width: 600px;
-    height: 20px;
-    margin: 10px;
-    padding-top: 10px;
-  }
-  #subscripcion
-  {
-    width: 500px;
-    height: 30px;
-    border-radius: 4px;
-  }
-
-.Final_pag
-{
-  display: -webkit-flex;
-  display: flex;
-  width: 1250px;
-  height: 200px;
-  margin: 10;
-  background-color: lightgray;
-  -webkit-justify-content: center;
-  justify-content: center;
-  font-family: monospace;
-  border: 1px solid black;
-  border-radius: 7px;
-}
-
-.anuncios
-{
-  width: 300px;
-  height: 140px;
-  margin: 5px;
-  justify-content: center;
-  padding-left: 10px;
-  color: black;
-  background-color: white;
-  border-radius: 7px;
-  padding-top: 30px;
-  padding-left: 50px;
-}
-.pie2
-{
-  display: -webkit-flex;
-  display: flex;
-  width: 100%;
-  height: 50px;
-  background-color: black;
-  justify-content: flex;
-}
-.derechos
-{
-  width: 900px;
-  height: 80px;
-  color: white;
-  padding-left: 27%;
-}
-
-.enlaces{
-  width: 1px;
-  height: 1px;
-  margin: 2px;
 }
 a{
 	text-decoration: none;
