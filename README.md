@@ -21,8 +21,8 @@ Licencia:
 
 Agradecimientos:
 
-Nancy Michelle Torres
-Desarrolladores
-CUCEI
+Nancy Michelle Torres,
+Desarrolladores,
+CUCEI.
 
 
