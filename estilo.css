@@ -1,0 +1,250 @@
+.contenedor{
+  width: 1200px;
+  height: 1500px;
+  background-color: white;
+  padding: 40px;
+  justify-content: center;
+}
+.barra_superior {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-end;
+  width: 1200px;
+  height: 30px;
+  background-color: black;
+}
+.inicio_sesion {
+  background-color: transparent;
+  width: 1200px;
+  height: 15px;
+  margin: 5px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 10px;
+  font-family: sans-serif;;
+}
+.borde_izq{
+  color: white;
+  background-color: transparent;
+  width: 900px;
+  height: 15px;
+  margin: 2px;
+  padding: 1px;
+  font-size: 13px;
+  font-family: sans-serif;;
+}
+.borde_der{
+  color: white;
+  background-color: transparent;
+  width: 300px;
+  height: 15px;
+  margin: 2px;
+  padding: 1px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.logo_carrito {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-end;
+  width: 1200px;
+  height: 60px;
+  background-color: white;
+}
+.logo_c {
+  background-color: transparent;
+  color: black;
+  width: 400px;
+  height: 25px;
+  margin: 10px;
+  padding: 5px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.opciones_busqueda {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  height: 60px;
+  background-color: black;
+}
+.opcion {
+  background-color: transparent;
+  width: 300px;
+  height: 50px;
+  margin: 10px;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.opcion2 {
+  background-color: transparent;
+  width: 250px;
+  height: 40px;
+  margin-top: 20px;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+.caja_inicio {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  height: 500px;
+  background-color: #CAE1FF;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.caja1{
+  background-color: #CAE1FF;
+  width: 300px;
+  height: 460px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.caja2{
+  background-color: white;
+  width: 900px;
+  height: 460px;
+  margin: 10px;
+  padding: 10px;
+}
+.l1{
+  background-color: transparent;
+  color: black;
+  width: 200px;
+  height: 20px;
+  margin-left: 300px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.l2{
+  background-color: transparent;
+  color: gray;
+  width: 500px;
+  height: 20px;
+  margin-left: 50px;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+.l3{
+  background-color: transparent;
+  color: black;
+  width: 500px;
+  height: 20px;
+  margin-left: 50px;
+  font-size: 12px;
+  font-family: sans-serif;
+}
+.estilo_caja{
+  background-color: transparent;
+  color: black;
+  width: 260px;
+  height: 20px;
+  margin: 5px;
+  padding: 0px;
+  font-size: 13px;
+  font-family: sans-serif;
+}
+.caja01{
+  background-color: #C0C0C0;
+  width: 260px;
+  height: 20px;
+  margin: 10px;
+  padding: 10px;
+  border-color: black;
+}
+
+.caja02{
+  background-color: white;
+  width: 400px;
+  height: 20px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-color: black;
+}
+
+.barra_inferior{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  height: 100px;
+  background-color: black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+.listas {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 1200px;
+  height: 250px;
+  background-color:#CAE1FF;
+  margin-top: 10px;
+}
+.anuncios {
+  background-color: #C0C0C0 ;
+  width: 400px;
+  height: 168px;
+  margin: 20px;
+  margin-left: 12px;
+  color: black;
+  font-size: 13px;
+  font-family: sans-serif;
+  padding: 20px;
+}
+.pie{
+  margin-top: 10px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 1200px;
+  height: 145px;
+  background-color:#CAE1FF;
+  color: white;
+}
+.formas_pago{
+  background-color: white ;
+  width: 1200px;
+  height: 60px;
+  margin: 20px;
+  color: black;
+  padding: 20px;
+}
+.derechos{
+  background-color: black ;
+  width: 1200px;
+  height: 20px;
+  margin: 20px;
+  color: white;
+  padding: 5px;
+  padding-left: 115px;
+
+
+}
+.pie2{
+  margin-top: 10px;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: center;
+  justify-content: center;
+  width: 1200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+}
