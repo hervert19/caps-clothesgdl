@@ -4,8 +4,8 @@ font-family: monospace;
 
 .contenedor
 {
-  width: 1250px;
-  height: 1300px;
+  width: 100%;
+  height: 1160px;
   justify-content: center;
   background-color: white;
   margin-left: auto;
@@ -43,6 +43,7 @@ font-family: monospace;
   width: 20%;
   height: 15px;
   background-color: transparent;
+  padding: 5px;
   margin: 3px;
 }
 .borde_final
@@ -50,13 +51,15 @@ font-family: monospace;
   width: 20%;
   height: 15px;
   background-color: transparent;
+  padding: 5px;
   margin: 3px;
 }
+
 .barra_superior_second
 {
   display: -webkit-flex;
   display: flex;
-  width: 1250px;
+  width: 100%;
   height: 200px;
   background-color: white;
   justify-content: center;
@@ -66,7 +69,7 @@ font-family: monospace;
 
 .logo_cap
 {
-  width: 200px;
+  width: 16%;
   height: 190px;
   color: white;
   background-color: white;
@@ -75,7 +78,7 @@ font-family: monospace;
 }
 .espacio
 {
-  width: 700px;
+  width: 56%;
   height: 80px;
   padding: 15px;
   color: white;
@@ -87,7 +90,7 @@ font-family: monospace;
 }
 .carrito_com
 {
-  width: 200px;
+  width: 16%;
   height: 80px;
   color: black;
   background-color: white;
@@ -106,7 +109,7 @@ font-family: monospace;
 
 #bus
 {
-  width: 500px;
+  width: 71.43%;
   height: 30px;
   margin-top: 24px;
   margin-left: 42px;
@@ -116,14 +119,14 @@ font-family: monospace;
 {
   display: -webkit-flex;
   display: flex;
-  width: 1250px;
+  width: 100%;
   height: 60px;
   background-color: black;
   justify-content: center;
   border-radius: 8px;
 }
 .opcion {
-  width: 250px;
+  width: 20%;
   height: 50px;
   margin: 10px;
   color: white;
@@ -137,8 +140,8 @@ font-family: monospace;
   display: -webkit-flex;
   display: flex;
   justify-content: flex-start;
-  width: 1250px;
-  height: 670px;
+  width: 100%;
+  height: 600px;
   background-color: transparent;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -146,14 +149,14 @@ font-family: monospace;
 
 .caja1{
   background-color: transparent;
-  width: 320px;
+  width: 25.6%;
   height: 200px;
   margin: 10px;
 }
 
 .caja2{
   background-color: transparent;
-  width: 900px;
+  width: 72%;
   height: 600px;
   margin: 10px;
   padding-top: 10px;
@@ -161,25 +164,26 @@ font-family: monospace;
 }
 #BusquedaPregunta
 {
-  padding-left: 140px;
-  margin-left: 60px;
-  width: 500px;
+  padding-left: 20px;
+  margin-left: 20px;
+  width: 70%;
   height: 30px;
   margin-bottom: 50px;
+  border-radius: 7px;
 }
 .Preguntas{
-  width: 800px;
+  width: 88.88%;
   height: 55px;
   background-color: lightgray;
-  margin: 20px;
-  margin-top: 5px;
+  margin-left: 20px;
+  margin-top: 10px;
   text-align: center;
   display: -webkit-flex;
   display: flex;
   justify-content: flex-start;
 }
 .Pre{
-  width: 720px;
+  width: 90%;
   height: 50px;
 }
 .Titulo{
@@ -192,7 +196,7 @@ font-family: monospace;
 }
 .caja01{
   background-color: black;
-  width: 300px;
+  width: 100%;
   height: 40px;
   padding: 10px;
   border: 1px solid white;
@@ -206,53 +210,45 @@ font-family: monospace;
 {
   display: -webkit-flex;
   display: flex;
-  width: 1250px;
-  height: 100px;
+  width: 100%;
+  height: 80px;
   margin-bottom: 20px;
   border-radius: 7px;
   background-color: black;
   font-family: monospace;
   justify-content: center;
 }
-.busqueda
-{
-  display: -webkit-flex;
-  display: flex;
-  width: 1250px;
-  height: 50px;
-  margin: 10px;
-  color: white;
-  background-color: transparent;
-  justify-content: center;
-}
-.caja_nomBus
-{
-  width: 150px;
+.caja_nomBus{
+  width: 20%;
   height: 20px;
   color: white;
   background-color: transparent;
-  padding-top: 15px;
+  text-align: right;
+  margin-top: 15px;
+
 }
 .caja_bus
-{
-    width: 600px;
+  {
+    width: 70%;
     height: 20px;
-    margin: 10px;
-    padding-top: 10px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 23px;
 }
 #subscripcion
 {
-  width: 500px;
-  height: 30px;
-  border-radius: 4px;
+    width: 60%;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 20px;
 }
 
 .Final_pag
 {
   display: -webkit-flex;
   display: flex;
-  width: 1250px;
-  height: 200px;
+  width: 100%;
+  height: 150px;
   margin: 10;
   background-color: lightgray;
   -webkit-justify-content: center;
@@ -261,18 +257,17 @@ font-family: monospace;
   border: 1px solid black;
   border-radius: 7px;
 }
-
 .anuncios
 {
-  width: 300px;
-  height: 140px;
+  width: 24%;
+  height: 120px;
   margin: 5px;
   justify-content: center;
   padding-left: 10px;
   color: black;
   background-color: white;
   border-radius: 7px;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 50px;
 }
 .pie2
@@ -282,18 +277,20 @@ font-family: monospace;
   width: 100%;
   height: 50px;
   background-color: black;
-  justify-content: flex;
+  justify-content: center;
+  align-content: center;
 }
 .derechos
 {
-  width: 900px;
+  width: 72%;
   height: 80px;
   color: white;
-  padding-left: 27%;
 }
-
+.linea{
+    text-align: center;
+}
 .enlaces{
-  width: 1px;
+  width: 0.08%;
   height: 1px;
   margin: 2px;
 }
@@ -306,4 +303,27 @@ a.FAQs{
 	text-decoration: none;
   color: black;
   font-family: monospace;
+}
+p{
+  font-family: monospace;
+}
+li{
+  font-family: monospace;
+  list-style-type: disc;
+}
+.boton{
+  background-color: white;
+  color: black;
+  margin-left: 10px;
+  width: 15%;;
+  height: 30px;
+}
+.boton2{
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  width: 15%;;
+  height: 40px;
+  margin-top: 5px;
+  margin-left:  5px;
 }

@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Caps & Clothes GDL</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content= "width=device-width, initial-scale=1, maximum-scale=4">
+    <title>Caps & Clothes GDL</title>
   <link rel="stylesheet" type="text/css" href="css/vista_produc_estilo.css"/>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+    <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon"/>
+  <meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1.0,maximum-scale-1.0,minimum-scale-1.0">
   <div class="barra_superior">
     <div class="inicio_sesion">
-      <p class="borde_izq">Envio Gratuito</p>
-      <p class="borde_centro"><a href="Contacto.html">Atencion a Clientes</a></p>
+      <p class="borde_izq"><a>Envio Gratuito</a></p>
+      <p class="borde_centro">
+        <a href="Contacto.html">Atencion a Clientes</a></p>
       <p class="borde_final"><a href="inicio_sesion.html">Iniciar Sesion</a></p>
     </div>
   </div>
@@ -16,12 +20,12 @@
   <main class="contenedor">
     <div class="barra_superior_second">
       <div class="logo_cap">
-        <img src="image/Logo.png">
+        <a href="index.html"><img src="image/Logo.png"></a>
       </div>
       <div class="espacio">
-        <form class="" action="Hombre.html" method="get">
+        <form class="" action method="get">
           <input type="search" id = "bus" name="bus" results="3" placeholder="Escribe tu busqueda!!">
-          <button type="submit" name="Buscar">Buscar</button>
+              <button class="boton" type="submit" name="Buscar">Buscar</button>
         </form>
       </div>
       <div class="carrito_com">
@@ -31,7 +35,7 @@
     </div>
     <div class="opciones_busqueda">
       <div class="opcion">
-      <a href="PaginaPrincipal.html">INICIO</a>
+      <a href="index.html">INICIO</a>
     </div>
     <div class="opcion">
       <a href="Mujeres.html">MUJER</a>
@@ -40,13 +44,13 @@
       <a href="Hombre.html">HOMBRE</a>
     </div>
     <div class="opcion">
-      <a href="Accesorios.html">ACCESORIOS</a>
+        <a href="Accesorios.html">ACCESORIOS</a>
     </div>
     <div class="opcion">
-      BRAND
+    <a href="#">BRAND</a>
     </div>
   </div>
-    </div>
+
     <div class="tabla">
     <table>
       <thead>
@@ -56,7 +60,7 @@
       </thead>
       <tbody>
         <tr>
-          <td><img class="imagenVista" src="image/gorra.jpg" alt="gorra"></td>
+          <td><img class="imagenVista" src="image/hombre/cap3.jpg" alt="gorra"></td>
         </tr>
       </tbody>
     </table>
@@ -72,11 +76,11 @@
       </thead>
       <tbody>
         <tr>
-          <td>Gorra linker</td>
-          <td>Gris claro</td>
-          <td>129.50</td>
-          <td>Unitalla</td>
-          <td>Gorra marca linker color gris 50% algodon, 50% acrilico</td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
+          <td> </td>
         </tr>
         <tr>
           <td colspan="5">Añadir al carrito</td>
@@ -85,16 +89,15 @@
     </table>
     </div>
     <div class="Mantente_dia">
-      <div class="busqueda">
+
         <div class="caja_nomBus">
           <h3>Mantente al dia</h3>
         </div>
         <div class="caja_bus">
           <input type="text" id="subscripcion" name="Subscrip"  placeholder="Suscribirme"/>
-          <button type="submit" name="subscri"> Enviar </button>
+          <button class="boton" type="submit" name="subscri"> Enviar </button>
         </div>
       </div>
-    </div>
     <div class="Final_pag">
       <div class="anuncios">
         <p>EMPRESA</p>
@@ -102,13 +105,13 @@
         <li>Facturación</li>
         <li>Bolsa de Trabajo</li>
         </div>
-        <address class="anuncios">
+        <div class="anuncios">
           <p>SERVICIO AL CLIENTE</p>
           <li><a class="FAQs" href="Contacto.html">Contacto</a></li>
           <li><a class="FAQs" href="FAQs.html">FAQ's</a></li>
-          <li>Devoluciones</li>
-          <li>Activar Monedero</li>
-        </address>
+          <li><a class="FAQs" href="devoluciones.html">Devoluciones</a></li>
+          <li><a class="FAQs" href="monedero.html">Activar Monedero</a></li>
+        </div>
         <div class="anuncios">
           <p>FORMAS DE PAGO</p>
           <li>Credito</li>
@@ -128,8 +131,8 @@
     </main>
     <footer class ="pie2">
       <div class="derechos">
-        <p>Caps & Clothes GDL 2017 | Todos los Derechos Reservados. <a href="TYC.html">Términos y Condiciones</a> | Políticas de Privacidad</p>
+        <p class="linea">Caps & Clothes GDL 2017 | Todos los Derechos Reservados. <a href="TYC.html">Términos y Condiciones</a> | Políticas de Privacidad</p>
       </div>
     </footer>
-    </body>
+  </body>
 </html>

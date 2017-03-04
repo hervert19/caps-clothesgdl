@@ -1,102 +1,135 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Caps & Clothes GDL</title>
-   <link rel="stylesheet" type="text/css" href="Estilo_hombre.css"/>
-  </head>
-  <body>
-    <section class="contenedor">
-    <div class="barra_superior">
-      <div class="inicio_sesion">
-        <p class="borde_izq">Envio Gratuito</p>
-        <p class="borde_centro">Atencion a Clientes</p>
-        <p class="borde_final">Inicio Sesion</p>
+<head>
+  <meta charset="utf-8">
+  <title>Caps & Clothes GDL</title>
+  <link rel="stylesheet" type="text/css" href="css/Estilo_hombre.css"/>
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon"/>
+  <div class="barra_superior">
+    <div class="inicio_sesion">
+      <p class="borde_izq">Envio Gratuito</p>
+      <p class="borde_centro"><a href="Contacto.html">Atencion a Clientes</a></p>
+      <p class="borde_final"><a href="inicio_sesion.html">Iniciar Sesion</a></p>
+    </div>
+  </div>
+</head>
+<body>
+  <main class="contenedor">
+    <div class="barra_superior_second">
+      <div class="logo_cap">
+        <a href="index.html"><img src="image/Logo.png"></a>
+      </div>
+      <div class="espacio">
+        <form class="" action="Hombre.html" method="get">
+          <input type="search" id = "bus" name="bus" results="3" placeholder="Escribe tu busqueda!!">
+          <button type="submit" class="boton" name="Buscar">Buscar</button>
+        </form>
+      </div>
+      <div class="carrito_com">
+        <img src="image/Carrito.ico">
+        <h3 class="Texto_Carrito">Tu Carrito</h3>
       </div>
     </div>
-      <div class="barra_superior_second">
-        <p class="logo_cap">
-          LOGO
-        </p>
-        <p class="logo_cap">
-            Busqueda_general
-        </p>
-        <p class="logo_cap">
-        Carrito_compras
-        </p>
-        </div>
     <div class="opciones_busqueda">
       <div class="opcion">
-        INICIO
-      </div>
-        <div class="opcion">
-          MUJER
-        </div>
-          <div class="opcion">
-            HOMBRE
-          </div>
-            <div class="opcion">
-              ACCESORIOS
-            </div>
-              <div class="opcion">
-                BRAND
-              </div>
+      <a href="index.html">INICIO</a>
     </div>
+    <div class="opcion">
+      <a href="Mujeres.html">MUJER</a>
+    </div>
+    <div class="opcion">
+      <a href="Hombre.html">HOMBRE</a>
+    </div>
+    <div class="opcion">
+        <a href="Accesorios.html">ACCESORIOS</a>
+    </div>
+    <div class="opcion">
+      BRAND
+    </div>
+  </div>
     <div class="Hombre">
       <div class="foto">
-        Foto 1
+        <img  class="img" src="image/hombre/man1.jpg">
       </div>
       <div class="foto">
-        Foto 2
+        <img  class="img" src="image/hombre/man2.jpg" />
       </div>
       <div class="foto">
-        Foto 3
+        <img  class="img" src="image/hombre/man3.jpg" />
       </div>
       <div class="foto">
-        Foto 4
+        <img  class="img" src="image/hombre/man4.jpg" />
       </div>
-      <div class="foto">
-        Foto 5
+      <div class="fotopeq">
+        <img  class="img2" src="image/hombre/cap1.jpg">
       </div>
-      <div class="foto">
-        Foto 6
+      <div class="fotopeq">
+        <img  class="img2" src="image/hombre/cap3.jpg" />
+      </div>
+      <div class="fotopeq">
+        <img  class="img2" src="image/hombre/cap4.jpg" />
+      </div>
+      <div class="fotopeq">
+        <img  class="img2" src="image/hombre/cap2.jpg" />
+      </div>
+      <div class="fotopeq">
+        <img  class="img3" src="image/hombre/tenis1.jpg">
+      </div>
+      <div class="fotopeq">
+        <img  class="img3" src="image/hombre/tenis3.jpg" />
+      </div>
+      <div class="fotopeq">
+        <img  class="img3" src="image/hombre/tenis2.jpg">
+      </div>
+      <div class="fotopeq">
+        <img  class="img3" src="image/hombre/tenis4.jpg" />
       </div>
     </div>
+
     <div class="Mantente_dia">
-      <div class="busqueda">
-        Mantente al dia!!
-      </div>
-      <div class="caja_bus">
-        Busqueda
+        <div class="caja_nomBus">
+          <h3>Mantente al dia</h3>
+        </div>
+        <div class="caja_bus">
+          <input type="text" id="subscripcion" name="Subscrip"  placeholder="Suscribirme"/>
+          <button type="submit" class="boton" name="subscri"> Enviar </button>
+        </div>
     </div>
     <div class="Final_pag">
       <div class="anuncios">
-      <p>555206511</p>
-      <p>Horario de Cliente.</p>
-      <p>Lunes a Sabado de 8:00 a 20:00 hrs.</p>
-      <p>Domingo de 9:00 a 13:00 hrs.</p>
+        <p>EMPRESA</p>
+        <li>Tiendas</li>
+        <li>Facturación</li>
+        <li>Bolsa de Trabajo</li>
+        </div>
+        <div class="anuncios">
+          <p>SERVICIO AL CLIENTE</p>
+          <li><a class="FAQs" href="Contacto.html">Contacto</a></li>
+          <li><a class="FAQs" href="FAQs.html">FAQ's</a></li>
+          <li><a class="FAQs" href="devoluciones.html">Devoluciones</a></li>
+          <li><a class="FAQs" href="monedero.html">Activar Monedero</a></li>
+        </div>
+        <div class="anuncios">
+          <p>FORMAS DE PAGO</p>
+          <li>Credito</li>
+          <li>Debito</li>
+          <li>Bit coin</li>
+        </div>
+        <div class = "anuncios">
+          <div class="formas_pago">
+            <p> CONECTATE CON C&C</p>
+            <img  id = "enlaces" src="image/Instagram.ico" >
+            <img  id = "enlaces" src="image/Facebook.ico" >
+            <img  id = "enlaces" src="image/SnapChat.ico" >
+            <img  id = "enlaces" src="image/Youtube.ico" >
+          </div>
+        </div>
       </div>
-    <address class="anuncios">
-      <p>Servicio al cliente</p>
-      <p>Contacto</p>
-      <p>FAQ's</p>
-      <p>Devoluciones</p>
-    </address>
-    <div class="anuncios">
-      <p>Twitter</p>
-      <p>Instragram</p>
-    </div>
-  </div>
-  <div class = pie>
-    <div class="formas_pago">
-      <p class="l1">FORMAS DE PAGO</p>
-    </div>
-  </div>
-  <footer class ="pie2">
-    <div class="derechos">
-    Caps & Clothes GDL 2017 | Todos los Derechos Reservados. Términos y Condiciones | Políticas de Privacidad
-    </div>
-  </footer>
-
-    </section>
-  </body>
+    </main>
+    <footer class ="pie2">
+      <div class="derechos">
+        <p class="linea">Caps & Clothes GDL 2017 | Todos los Derechos Reservados. <a href="TYC.html">Términos y Condiciones</a> | Políticas de Privacidad</p>
+      </div>
+    </footer>
+    </body>
 </html>
