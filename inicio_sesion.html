@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>Caps & Clothes GDL</title>
   <link rel="stylesheet" type="text/css" href="css/inicio_sesion.css"/>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon"/>
+  <script src="dist/sweetalert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
   <div class="barra_superior">
     <div class="inicio_sesion">
-      <p class="borde_izq">Envio Gratuito</p>
-      <p class="borde_centro"><a href="Contacto.html">Atencion a Clientes</a></p>
-      <p class="borde_final"><a href="inicio_sesion.html">Iniciar Sesion</a></p>
+      <p class="borde_izq"></p>
+      <p class="borde_centro"><a href="Contacto.html">Atención a Clientes</a></p>
+      <p class="borde_final"><a href="inicio_sesion.html">Iniciar Sesión</a></p>
     </div>
   </div>
 </head>
@@ -16,12 +19,12 @@
   <main class="contenedor">
     <div class="barra_superior_second">
       <div class="logo_cap">
-        <img src="image/Logo.png">
+        <a href="index.html"><img src="image/Logo.png"></a>
       </div>
       <div class="espacio">
-        <form class="" action="Hombre.html" method="get">
-          <input type="search" id = "bus" name="bus" results="3" placeholder="Escribe tu busqueda!!">
-          <button type="submit" name="Buscar">Buscar</button>
+        <form class="" action="inicio_sesion.html" method="get">
+          <input type="search" id = "bus" name="bus" results="3" placeholder="Escribe tu búsqueda!">
+          <button type="submit" class="boton" name="Buscar">Buscar</button>
         </form>
       </div>
       <div class="carrito_com">
@@ -31,7 +34,7 @@
     </div>
     <div class="opciones_busqueda">
       <div class="opcion">
-      <a href="PaginaPrincipal.html">INICIO</a>
+      <a href="index.html">INICIO</a>
     </div>
     <div class="opcion">
       <a href="Mujeres.html">MUJER</a>
@@ -42,46 +45,52 @@
     <div class="opcion">
       <a href="Accesorios.html">ACCESORIOS</a>
     </div>
-    <div class="opcion">
-      BRAND
-    </div>
   </div>
     <div class="caja_mayor">
       <div class="caja_01">
         <div class="uno">
-          <h1>LOGIN O CREA UNA CUENTA !!</h1>
-        </div>
-        <div class="dos">
-          <a href="registro.html" class="FAQs" >
-          <button type="submit" id="Registrar" name="registro"> Crear cuenta </button>
-        </a>
+          <h2 class="tipole">CREA UNA CUENTA!</h2>
+          <p class="tipole">Soy nuevo aquí</p>
+          <div class="content">
+            <p class="tipole">Crea tu cuenta y registra tus datos personales y de envío con nosotros de forma rápida y sencilla.</p>
+            <p class="tipole">De esta forma podrás gestionar tus direcciones de entrega y facturación, ver tu lista de pedidos, y mucho más.</p>
+            <a href="registro.html" class="FAQs" >
+            <button type="submit" id="Registrar" name="registro" class="boton2"> Crear cuenta </button>
+          </a>
+          </div>
         </div>
       </div>
       <div class="caja_02">
         <div class="tres">
-          <form  action="inicio_sesion.html" method="post">
-            <label for="identificador" id="ident_label">Usuario </label>
-            <input type="text" name="identificador" id="identificador" placeholder="Escribe tu ID"/>
-            <label for="Password" id="passw_label">Password </label>
-            <input type="password" name="password" id="password" placeholder="Escribe tu PASSWORD!!"/>
+          <form  action="inicio_sesion.html" method="post" onsubmit="return validar()">
+            <h2 class="tipole">INICIO DE SESION</h2>
+            <label for="identificador" id="ident_label">
+              <p class="tipole">User</p>
+            </label>
+            <input  type="text" name="identificador" id="identificador" placeholder="Escribe tu correo"/>
+            <label for="Password" id="passw_label">
+              <div id="WVC"></div>
+              <p class="tipole">Password </p>
+            </label>
+            <input type="password" name="password" id="password" placeholder="Escribe tu PASSWORD!"/>
+            <div id="WVP"></div>
+            <div id="WVA"></div>
+            <a href="indexCS.html"><button type="submit" id="Ingresar" name="Ingresar" class="boton3" onclick="validar()"> LOGIN </button></a>
           </form>
-        </div>
-        <div class="cuatro">
-          <button type="submit" id="Ingresar" name="Ingresar"> Ingresar </button>
+          <script src="JS/validarIS.js"></script>
+         <p > <a class="recupe" href="recuperar_contra.html" >Has olvidado tu password?</p> </a>
         </div>
       </div>
     </div>
     <div class="Mantente_dia">
-      <div class="busqueda">
         <div class="caja_nomBus">
-          <h3>Mantente al dia</h3>
+          <h3>Mantente al día</h3>
         </div>
         <div class="caja_bus">
           <input type="text" id="subscripcion" name="Subscrip"  placeholder="Suscribirme"/>
-          <button type="submit" name="subscri"> Enviar </button>
+          <button type="submit" class="boton"name="subscri"> Enviar </button>
         </div>
       </div>
-    </div>
     <div class="Final_pag">
       <div class="anuncios">
         <p>EMPRESA</p>
@@ -89,16 +98,16 @@
         <li>Facturación</li>
         <li>Bolsa de Trabajo</li>
         </div>
-        <address class="anuncios">
+        <div class="anuncios">
           <p>SERVICIO AL CLIENTE</p>
           <li><a class="FAQs" href="Contacto.html">Contacto</a></li>
           <li><a class="FAQs" href="FAQs.html">FAQ's</a></li>
           <li><a class="FAQs" href="devoluciones.html">Devoluciones</a></li>
           <li><a class="FAQs" href="monedero.html">Activar Monedero</a></li>
-        </address>
+        </div>
         <div class="anuncios">
           <p>FORMAS DE PAGO</p>
-          <li>Credito</li>
+          <li>Crédito</li>
           <li>Debito</li>
           <li>Bit coin</li>
         </div>
@@ -115,7 +124,7 @@
     </main>
     <footer class ="pie2">
       <div class="derechos">
-        <p>Caps & Clothes GDL 2017 | Todos los Derechos Reservados. <a href="TYC.html">Términos y Condiciones</a> | Políticas de Privacidad</p>
+        <p class="linea">Caps & Clothes GDL 2017 | Todos los Derechos Reservados. <a href="TYC.html">Términos y Condiciones</a> | Políticas de Privacidad</p>
       </div>
     </footer>
     </body>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content= "width=device-width, initial-scale=1, maximum-scale=4">
+    <title>Caps & Clothes GDL</title>
+  <link rel="stylesheet" type="text/css" href="css/AltaProd.css"/>
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon"/>
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1.0,maximum-scale-1.0,minimum-scale-1.0">
+  <div class="barra_superior">
+    <div class="inicio_sesion">
+      <p class="borde_izq"></p>
+      <p class="borde_centro1"><img src="image/user.png"></p>
+      <p class="borde_centro2">Mi Perfil</p>
+      <p class="borde_final"><a href="inicio_sesion.html">Cerrar Sesión</a></p>
+    </div>
+  </div>
+</head>
+<body>
+  <main class="contenedor">
+    <div class="barra_superior_second">
+      <div class="logo_cap">
+        <a href="indexAdmin.html"><img src="image/imagen.png"></a>
+      </div>
+    </div>
+    <div class="opciones_busqueda">
+      <div class="opcion">
+      Alta Productos
+      </div>
+    </div>
+    <div class="caja_menu">
+      <form  action="#" method="post" onsubmit="">
+        <label for="nombre">
+        <p>Nombre del producto</p>
+        </label>
+        <input type="text" id="nombre" name="Nombre" placeholder="Escribe el nombre del producto"/>
+        <label for="fecha">
+        <p>Fecha</p>
+        </label>
+        <input type="text" id="fecha" name="fecha" placeholder="Fecha de ingreso"/>
+        <label for="id">
+          <p>Id Producto</p>
+        </label>
+        <input type="text" id="id" name="id" placeholder="Escribe el código del producto"/>
+        <label for="precio">
+          <p>Precio</p>
+        </label>
+        <input  type="text" id="precio" name="precio" placeholder="Escribe el costo del producto"/>
+        <label for="des">
+          <p>Descripción</p>
+        </label>
+        <input type="text" id="descripcion" name="descripcion" placeholder="Escribe la descripcion del producto"/>
+        <label for="tipo">
+          <p>Tipo</p>
+        </label>
+        <select name="OS" id="tipo" class="sel" onclick="show_hide()">
+          <option value="1">Prenda</option>
+          <option value="2">Calzado</option>
+		  <option value="3">Accesorio</option>
+        </select>
+        <label for="talla">
+          <p>Talla</p>
+        </label>
+        <select name="OS1" id= "seleccionar"  class="sel">
+          <option value="1">21</option>
+          <option value="2">22</option>
+          <option value="3">23</option>
+          <option value="4">24</option>
+          <option value="5">25</option>
+          <option value="6">26</option>
+          <option value="7">27</option>
+          <option value="8">28</option>
+          <option value="9">29</option>
+          <option value="10">30</option>
+        </select>
+        <select name="OS1" id= "seleccionar1"  class="sel">
+          <option value="1">E-CH</option>
+          <option value="2">CH</option>
+          <option value="3">M</option>
+          <option value="4">G</option>
+          <option value="5">EG</option>
+        </select>
+		 <select name="OS1" id= "seleccionar2"  class="sel">
+          <option value="1">NA</option>
+        </select>
+        <div class="sel2">
+        </div>
+       <label for="imagenes">
+           Adjuntar Imagenes
+       </label>
+       <div class="sel2">
+       </div>
+        <input type="file" mutliple="true" name="archivos"/>
+        <div class="sel">
+        </div>
+          <button type="submit" class="boton" onclick="validar()">CAPTURAR</button>
+      </form>
+      <div  class="editor">
+        <a href="indexAdmin.html">REGRESAR</a>
+      </div>
+      <script src="JS/validacioncap.js">
+      </script>
+    </div>
+    <div class="opciones_busqueda">
+      <div class="opcion">
+      </div>
+    </div>
+  </main>
+  <footer class ="pie2">
+    <div class="derechos">
+      <p class="linea">Caps & Clothes GDL 2017 | Todos los Derechos Reservados. <a href="TYC.html">Términos y Condiciones</a> | Políticas de Privacidad</p>
+    </div>
+  </footer>
+  <script src="JS/slider.js"></script>
+</body>
+</html>

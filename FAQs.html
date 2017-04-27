@@ -1,27 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>Caps & Clothes GDL</title>
   <link rel="stylesheet" type="text/css" href="css/FAQs.css"/>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon"/>
   <div class="barra_superior">
     <div class="inicio_sesion">
-      <p class="borde_izq">Envio Gratuito</p>
-      <p class="borde_centro"><a href="Contacto.html">Atencion a Clientes</a></p>
-      <p class="borde_final"><a href="inicio_sesion.html">Iniciar Sesion</a></p>
+      <p class="borde_izq"></p>
+      <p class="borde_centro"><a href="Contacto.html">Atención a Clientes</a></p>
+      <p class="borde_final"><a href="inicio_sesion.html">Iniciar Sesión</a></p>
     </div>
   </div>
 </head>
 <body>
   <main class="contenedor">
     <div class="barra_superior_second">
-      <div class="logo_cap">
-        <img src="image/Logo.png">
+        <div class="logo_cap">
+      <a href="index.html"><img src="image/Logo.png"></a>
       </div>
       <div class="espacio">
-        <form class="" action="Hombre.html" method="get">
-          <input type="search" id = "bus" name="bus" results="3" placeholder="Escribe tu busqueda!!">
-          <button type="submit" name="Buscar">Buscar</button>
+        <form class="" action="FAQs.html" method="get">
+          <input type="search" id = "bus" name="bus" results="3" placeholder="Escribe tu búsqueda!">
+          <button type="submit" class="boton"name="Buscar">Buscar</button>
         </form>
       </div>
       <div class="carrito_com">
@@ -31,7 +32,7 @@
     </div>
     <div class="opciones_busqueda">
       <div class="opcion">
-      <a href="PaginaPrincipal.html">INICIO</a>
+      <a href="index.html">INICIO</a>
     </div>
     <div class="opcion">
       <a href="Mujeres.html">MUJER</a>
@@ -41,9 +42,6 @@
     </div>
     <div class="opcion">
       <a href="Accesorios.html">ACCESORIOS</a>
-    </div>
-    <div class="opcion">
-      BRAND
     </div>
   </div>
     <div class="caja_inicio">
@@ -56,10 +54,11 @@
           </div>
           <div class="caja01">
             <a href="TYC.html">
-          <h4>Terminos y Condiciones</h4></a>
+          <h4>Términos y Condiciones</h4></a>
           </div>
           <div class="caja01">
-            <h4 >Aviso de privacidad</h4>
+            <a href="monedero.html">
+            <h4>Monedero Electrónico</h4></a>
           </div>
           <div class="caja01">
             <a href="devoluciones.html">
@@ -69,56 +68,31 @@
           <div class="caja2">
             <h1 class="Titulo">PODEMOS AYUDARLE</h1>
             <input type="text" id= "BusquedaPregunta" name="BP"  placeholder="Busca lo que necesitas"/>
-            <button type="submit" name="BusquedaP"> Buscar </button>
-            <div class="Preguntas">
-              <div class="Pre">
-                <h1 class "Titulo">COMPRAS EN LINEA</h1>
+            <button type="submit" class="boton2"name="BusquedaP"> Buscar </button>
+            <button class="accordion">Sección 1</button>
+              <div class="panel">
+                <p>Lorem ipsum...</p>
               </div>
-              <img src="image/abajo.ico">
-            </div>
-            <div class="Preguntas">
-              <div class="Pre">
-                <h1 class "Titulo">REGISTRO</h1>
+              <button class="accordion">Sección 2</button>
+              <div class="panel">
+                <p>Lorem ipsum...</p>
               </div>
-              <img src="image/abajo.ico">
-            </div>
-            <div class="Preguntas">
-              <div class="Pre">
-                <h1 class "Titulo">PAGOS EN LINEA</h1>
+              <button class="accordion">Sección 3</button>
+              <div class="panel">
+                <p>Lorem ipsum...</p>
               </div>
-              <img src="image/abajo.ico">
-            </div>
-            <div class="Preguntas">
-              <div class="Pre">
-                <h1 class "Titulo">ENVIOS</h1>
-              </div>
-              <img src="image/abajo.ico">
-            </div>
-            <div class="Preguntas">
-              <div class="Pre">
-                <h1 class "Titulo">DEVOLUCIONES</h1>
-              </div>
-              <img src="image/abajo.ico">
-            </div>
-            <div class="Preguntas">
-              <div class="Pre">
-                <h1 class "Titulo">FACTURA ELECTRONICA</h1>
-              </div>
-              <img src="image/abajo.ico">
-            </div>
-
+              <script src="JS/validacioncap.js">
+              </script>
         </div>
       </div>
       <div class="Mantente_dia">
-        <div class="busqueda">
           <div class="caja_nomBus">
-            <h3>Mantente al dia</h3>
+            <h3>Mantente al día</h3>
           </div>
           <div class="caja_bus">
             <input type="text" id="subscripcion" name="Subscrip"  placeholder="Suscribirme"/>
-            <button type="submit" name="subscri"> Enviar </button>
+            <button type="submit" class="boton" name="subscri"> Enviar </button>
           </div>
-        </div>
       </div>
       <div class="Final_pag">
         <div class="anuncios">
@@ -127,16 +101,16 @@
           <li>Facturación</li>
           <li>Bolsa de Trabajo</li>
           </div>
-          <address class="anuncios">
+          <div class="anuncios">
             <p>SERVICIO AL CLIENTE</p>
             <li><a class="FAQs" href="Contacto.html">Contacto</a></li>
             <li><a class="FAQs" href="FAQs.html">FAQ's</a></li>
             <li><a class="FAQs" href="devoluciones.html">Devoluciones</a></li>
             <li><a class="FAQs" href="monedero.html">Activar Monedero</a></li>
-          </address>
+          </div>
           <div class="anuncios">
             <p>FORMAS DE PAGO</p>
-            <li>Credito</li>
+            <li>Crédito</li>
             <li>Debito</li>
             <li>Bit coin</li>
           </div>
@@ -153,7 +127,7 @@
       </main>
       <footer class ="pie2">
         <div class="derechos">
-          <p>Caps & Clothes GDL 2017 | Todos los Derechos Reservados. <a href="TYC.html">Términos y Condiciones</a> | Políticas de Privacidad</p>
+          <p class="linea">Caps & Clothes GDL 2017 | Todos los Derechos Reservados. <a href="TYC.html">Términos y Condiciones</a> | Políticas de Privacidad</p>
         </div>
       </footer>
       </body>

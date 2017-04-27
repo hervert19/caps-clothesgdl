@@ -4,8 +4,8 @@ font-family: monospace;
 
 .contenedor
 {
-  width: 100%;
-  height: 885px;
+  width: 99%;
+  height: 1350px;
   justify-content: center;
   background-color: white;
   margin-left: auto;
@@ -43,6 +43,7 @@ font-family: monospace;
   width: 20%;
   height: 15px;
   background-color: transparent;
+  padding: 5px;
   margin: 3px;
 }
 .borde_final
@@ -50,6 +51,7 @@ font-family: monospace;
   width: 20%;
   height: 15px;
   background-color: transparent;
+  padding: 5px;
   margin: 3px;
 }
 .barra_superior_second
@@ -132,15 +134,16 @@ font-family: monospace;
   padding-top: 10px;
   padding-left: 40px;
 }
-
-.imagenVista{
-  width: 100%;
-  height: 200px;
+.boton{
+  background-color: white;
+  color: black;
+  margin-left: 10px;
+  width: 15%;;
+  height: 30px;
 }
 
 table{
   border-spacing: 3px;
-
 }
 
 th{
@@ -149,6 +152,7 @@ th{
   border-spacing: 5px;
   padding: 5px 15px;
   color: white;
+
 }
 td{
   background: lightgray;
@@ -160,55 +164,50 @@ td{
 .tabla{
   display: -webkit-flex;
   display: flex;
-  justify-content:space-around;
+  justify-content:center;
   align-items:flex-start;
   width: 100%;
-  height: 245px;
+  height: 90px;
   margin: 10px;
   background-color: white;
+
 }
 .Mantente_dia
 {
   display: -webkit-flex;
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 80px;
   margin-bottom: 20px;
   border-radius: 7px;
   background-color: black;
   font-family: monospace;
   justify-content: center;
 }
-.busqueda
-{
-  display: -webkit-flex;
-  display: flex;
-  width: 100%;
-  height: 50px;
-  margin: 10px;
-  color: white;
-  background-color: transparent;
-  justify-content: center;
-}
+
 .caja_nomBus{
-  width: 12%;
+  width: 20%;
   height: 20px;
   color: white;
   background-color: transparent;
-  padding-top: 15px;
+  text-align: right;
+  margin-top: 15px;
+
   }
   .caja_bus
   {
-    width: 48%;
+    width: 70%;
     height: 20px;
-    margin: 10px;
-    padding-top: 10px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 23px;
   }
   #subscripcion
   {
-    width: 83.33%;
+    width: 60%;
     height: 30px;
     border-radius: 4px;
+    margin-left: 20px;
   }
 
 .Final_pag
@@ -216,7 +215,7 @@ td{
   display: -webkit-flex;
   display: flex;
   width: 100%;
-  height: 200px;
+  height: 150px;
   margin: 10;
   background-color: lightgray;
   -webkit-justify-content: center;
@@ -229,14 +228,14 @@ td{
 .anuncios
 {
   width: 24%;
-  height: 140px;
+  height: 120px;
   margin: 5px;
   justify-content: center;
   padding-left: 10px;
   color: black;
   background-color: white;
   border-radius: 7px;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 50px;
 }
 .pie2
@@ -246,14 +245,14 @@ td{
   width: 100%;
   height: 50px;
   background-color: black;
-  justify-content: flex;
+  justify-content: center;
+  align-content: center;
 }
 .derechos
 {
   width: 72%;
   height: 80px;
   color: white;
-  padding-left: 27%;
 }
 
 .enlaces{
@@ -269,12 +268,60 @@ a{
 a.FAQs{
 	text-decoration: none;
   color: black;
-  font-family: monospace;
+}
+.linea{
+    text-align: center;
 }
 p{
-  font-family: "Palatino", sans-serif;
+  font-family: monospace;
 }
 li{
-  font-family: "Palatino", sans-serif;
+  font-family: monospace;
   list-style-type: disc;
+}
+
+#container{
+  width: 63.07%;
+  height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#image{
+height:635px;
+width:75%;
+justify-content: center;
+}
+.thumb{
+float:left;
+height:50px;
+width: 80px;
+margin-right:10px;
+margin-top:5px;
+margin-left: 50px;
+border:4px #666 solid;
+}
+.image2{
+  height:200px;
+  width:75%;
+  justify-content: center;
+}
+#Ingresar
+{
+  width: 10%;
+  height: 50px;
+  margin-left: 100px;
+  margin-top: 40px;
+}
+.boton3{
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  width: 10%;;
+  height: 50px;
+}
+select {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 70px;
 }

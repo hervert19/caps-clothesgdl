@@ -5,7 +5,7 @@ font-family: monospace;
 .contenedor
 {
   width: 100%;
-  height: 1540px;
+  height: 1450px;
   justify-content: center;
   background-color: white;
   margin-left: auto;
@@ -43,6 +43,7 @@ font-family: monospace;
   width: 20%;
   height: 15px;
   background-color: transparent;
+  padding: 5px;
   margin: 3px;
 }
 .borde_final
@@ -50,9 +51,9 @@ font-family: monospace;
   width: 20%;
   height: 15px;
   background-color: transparent;
+  padding: 5px;
   margin: 3px;
-}
-.barra_superior_second
+}.barra_superior_second
 {
   display: -webkit-flex;
   display: flex;
@@ -104,6 +105,14 @@ font-family: monospace;
   margin-left: 15px;
 }
 
+.boton{
+  background-color: white;
+  color: black;
+  margin-left: 10px;
+  width: 15%;;
+  height: 30px;
+}
+
 #bus
 {
   width: 71.43%;
@@ -138,7 +147,7 @@ font-family: monospace;
   display: flex;
   justify-content: flex-start;
   width: 100%;
-  height: 900px;
+  height: 890px;
   background-color: transparent;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -161,7 +170,7 @@ font-family: monospace;
 }
 
 .Titulo{
-  padding-left: 12%;
+  padding-left: 22%;
   padding-bottom: 8px;
 }
 .Letra{
@@ -181,12 +190,16 @@ font-family: monospace;
   color: white;
   border-radius: 7px;
 }
-
+p.tipo{
+  font-family: "platino", sans-serif;
+  text-align: justify;
+  padding-left: 50px;
+}
 p{
-  font-family: "Palatino", sans-serif;
+  font-family: monospace;
 }
 li{
-  font-family: "Palatino", sans-serif;
+  font-family: monospace;
   list-style-type: disc;
 }
 .Mantente_dia
@@ -194,74 +207,66 @@ li{
   display: -webkit-flex;
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 80px;
   margin-bottom: 20px;
   border-radius: 7px;
   background-color: black;
   font-family: monospace;
   justify-content: center;
 }
-.busqueda
-{
-  display: -webkit-flex;
-  display: flex;
-  width: 100%;
-  height: 50px;
-  margin: 10px;
-  color: white;
-  background-color: transparent;
-  justify-content: center;
-}
-.caja_nomBus
-{
-  width: 12%;
+
+.caja_nomBus{
+  width: 20%;
   height: 20px;
   color: white;
   background-color: transparent;
-  padding-top: 15px;
-}
-.caja_bus
-{
-    width: 48%;
+  text-align: right;
+  margin-top: 15px;
+
+  }
+  .caja_bus
+  {
+    width: 70%;
     height: 20px;
-    margin: 10px;
-    padding-top: 10px;
-}
-#subscripcion
-{
-  width: 83.33%;
-  height: 30px;
-  border-radius: 4px;
-}
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 23px;
+  }
+  #subscripcion
+  {
+    width: 60%;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 20px;
+  }
+  .Final_pag
+  {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin: 10;
+    background-color: lightgray;
+    -webkit-justify-content: center;
+    justify-content: center;
+    font-family: monospace;
+    border: 1px solid black;
+    border-radius: 7px;
+  }
 
-.Final_pag
-{
-  display: -webkit-flex;
-  display: flex;
-  width: 100%;
-  height: 200px;
-  margin: 10;
-  background-color: lightgray;
-  -webkit-justify-content: center;
-  justify-content: center;
-  font-family: monospace;
-  border: 1px solid black;
-  border-radius: 7px;
-}
-
-.anuncios
-{
-  width: 24%;
-  height: 140px;
-  margin: 5px;
-  justify-content: center;
-  padding-left: 10px;
-  color: black;
-  background-color: white;
-  border-radius: 7px;
-  padding-top: 30px;
-  padding-left: 50px;
-}
+  .anuncios
+  {
+    width: 24%;
+    height: 120px;
+    margin: 5px;
+    justify-content: center;
+    padding-left: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
 .pie2
 {
   display: -webkit-flex;
@@ -269,16 +274,18 @@ li{
   width: 100%;
   height: 50px;
   background-color: black;
-  justify-content: flex;
+  justify-content: center;
+  align-content: center;
 }
 .derechos
 {
   width: 72%;
   height: 80px;
   color: white;
-  padding-left: 27%;
 }
-
+.linea{
+    text-align: center;
+}
 .enlaces{
   width: 0.08%;
   height: 1px;
@@ -293,4 +300,8 @@ a.FAQs{
 	text-decoration: none;
   color: black;
   font-family: monospace;
+}
+li.letralista{
+  font-family: "platino", sans-serif;
+  margin-left: 50px;
 }
