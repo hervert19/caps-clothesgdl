@@ -5,7 +5,7 @@ font-family: monospace;
 .contenedor
 {
   width: 100%;
-  height: 1310px;
+  height: 1160px;
   justify-content: center;
   background-color: white;
   margin-left: auto;
@@ -43,6 +43,7 @@ font-family: monospace;
   width: 20%;
   height: 15px;
   background-color: transparent;
+  padding: 5px;
   margin: 3px;
 }
 .borde_final
@@ -50,8 +51,10 @@ font-family: monospace;
   width: 20%;
   height: 15px;
   background-color: transparent;
+  padding: 5px;
   margin: 3px;
 }
+
 .barra_superior_second
 {
   display: -webkit-flex;
@@ -138,7 +141,7 @@ font-family: monospace;
   display: flex;
   justify-content: flex-start;
   width: 100%;
-  height: 670px;
+  height: 600px;
   background-color: transparent;
   margin-top: 10px;
   margin-bottom: 10px;
@@ -161,25 +164,26 @@ font-family: monospace;
 }
 #BusquedaPregunta
 {
-  padding-left: 140px;
-  margin-left: 60px;
-  width: 55.55%;
+  padding-left: 20px;
+  margin-left: 20px;
+  width: 70%;
   height: 30px;
   margin-bottom: 50px;
+  border-radius: 7px;
 }
 .Preguntas{
   width: 88.88%;
   height: 55px;
   background-color: lightgray;
-  margin: 20px;
-  margin-top: 5px;
+  margin-left: 20px;
+  margin-top: 10px;
   text-align: center;
   display: -webkit-flex;
   display: flex;
   justify-content: flex-start;
 }
 .Pre{
-  width: 80%;
+  width: 90%;
   height: 50px;
 }
 .Titulo{
@@ -207,44 +211,36 @@ font-family: monospace;
   display: -webkit-flex;
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 80px;
   margin-bottom: 20px;
   border-radius: 7px;
   background-color: black;
   font-family: monospace;
   justify-content: center;
 }
-.busqueda
-{
-  display: -webkit-flex;
-  display: flex;
-  width: 100%;
-  height: 50px;
-  margin: 10px;
-  color: white;
-  background-color: transparent;
-  justify-content: center;
-}
-.caja_nomBus
-{
-  width: 12%;
+.caja_nomBus{
+  width: 20%;
   height: 20px;
   color: white;
   background-color: transparent;
-  padding-top: 15px;
+  text-align: right;
+  margin-top: 15px;
+
 }
 .caja_bus
-{
-    width: 48%;
+  {
+    width: 70%;
     height: 20px;
-    margin: 10px;
-    padding-top: 10px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 23px;
 }
 #subscripcion
 {
-  width: 83.33%;
-  height: 30px;
-  border-radius: 4px;
+    width: 60%;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 20px;
 }
 
 .Final_pag
@@ -252,7 +248,7 @@ font-family: monospace;
   display: -webkit-flex;
   display: flex;
   width: 100%;
-  height: 200px;
+  height: 150px;
   margin: 10;
   background-color: lightgray;
   -webkit-justify-content: center;
@@ -261,18 +257,17 @@ font-family: monospace;
   border: 1px solid black;
   border-radius: 7px;
 }
-
 .anuncios
 {
   width: 24%;
-  height: 140px;
+  height: 120px;
   margin: 5px;
   justify-content: center;
   padding-left: 10px;
   color: black;
   background-color: white;
   border-radius: 7px;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 50px;
 }
 .pie2
@@ -282,16 +277,18 @@ font-family: monospace;
   width: 100%;
   height: 50px;
   background-color: black;
-  justify-content: flex;
+  justify-content: center;
+  align-content: center;
 }
 .derechos
 {
   width: 72%;
   height: 80px;
   color: white;
-  padding-left: 27%;
 }
-
+.linea{
+    text-align: center;
+}
 .enlaces{
   width: 0.08%;
   height: 1px;
@@ -308,9 +305,50 @@ a.FAQs{
   font-family: monospace;
 }
 p{
-  font-family: "Palatino", sans-serif;
+  font-family: monospace;
 }
 li{
-  font-family: "Palatino", sans-serif;
+  font-family: monospace;
   list-style-type: disc;
+}
+.boton{
+  background-color: white;
+  color: black;
+  margin-left: 10px;
+  width: 15%;;
+  height: 30px;
+}
+.boton2{
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  width: 15%;;
+  height: 40px;
+  margin-top: 5px;
+  margin-left:  5px;
+}
+
+/* Style the buttons that are used to open and close the accordion panel */
+button.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 90%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+button.accordion.active, button.accordion:hover {
+    background-color: #ddd;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+div.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
 }

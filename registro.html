@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>Caps & Clothes GDL</title>
-  <link rel="stylesheet" type="text/css" href="css/diseño_regis.css"/>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="stylesheet" type="text/css" href="css/dis_regis.css"/>
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon"/>
+  <script src="dist/sweetalert.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="dist/sweetalert.css">
   <div class="barra_superior">
     <div class="inicio_sesion">
-      <p class="borde_izq">Envio Gratuito</p>
-      <p class="borde_centro"><a href="Contacto.html">Atencion a Clientes</a></p>
-      <p class="borde_final"><a href="inicio_sesion.html">Iniciar Sesion</a></p>
+      <p class="borde_izq"></p>
+      <p class="borde_centro"><a href="Contacto.html">Atención a Clientes</a></p>
+      <p class="borde_final"><a href="inicio_sesion.html">Iniciar Sesión</a></p>
     </div>
   </div>
 </head>
@@ -16,12 +19,12 @@
   <main class="contenedor">
     <div class="barra_superior_second">
       <div class="logo_cap">
-        <img src="image/Logo.png">
+        <a href="index.html"><img src="image/Logo.png"></a>
       </div>
       <div class="espacio">
-        <form class="" action="Hombre.html" method="get">
-          <input type="search" id = "bus" name="bus" results="3" placeholder="Escribe tu busqueda!!">
-          <button type="submit" name="Buscar">Buscar</button>
+        <form class="" action="registro.html" method="get">
+          <input type="search" id = "bus" name="bus" results="3" placeholder="Escribe tu búsqueda!">
+          <button class="boton" type="submit" name="Buscar">Buscar</button>
         </form>
       </div>
       <div class="carrito_com">
@@ -31,7 +34,7 @@
     </div>
     <div class="opciones_busqueda">
       <div class="opcion">
-      <a href="PaginaPrincipal.html">INICIO</a>
+      <a href="index.html">INICIO</a>
     </div>
     <div class="opcion">
       <a href="Mujeres.html">MUJER</a>
@@ -42,53 +45,59 @@
     <div class="opcion">
       <a href="Accesorios.html">ACCESORIOS</a>
     </div>
-    <div class="opcion">
-      BRAND
-    </div>
   </div>
     <div class="barra_registro">
-      <h2>Crear cuenta</h2>
+      <p class="tipolet">Crear cuenta!</p>
     </div>
     <div class="registro_general">
       <div class="registro">
-        <form  action="registro.html" method="post">
-          <label for="nombre">Nombre</label>
+        <form  action="registro.html" method="post" onsubmit="return validar()">
+          <label for="nombre">
+          <p>Nombre</p>
+          </label>
           <input type="text" id="nombre" name="Nombre" placeholder="Escribe tu nombre"/>
-
-          <label for="apellido">Apellido</label>
+          <div id="WVN"></div>
+          <label for="apellido">
+          <p>Apellido</p>
+          </label>
           <input type="text" id="apellido" name="Apellido" placeholder="Escribe tu apellido"/>
-
-          <label for="edad">Edad</label>
+          <div id="WVA"></div>
+          <label for="edad">
+            <p>Edad</p>
+          </label>
           <input type="text" id="edad" name="edad" placeholder="Escribe tu edad"/>
-
-          <label for="correo">Correo</label>
-          <input type="email" id="correo" name="Correo" placeholder="Escribe su correo"/>
-
-          <label for="contraseña">Contraseña</label>
-          <input type="password" id="contraseña" name="Contraseña" placeholder="Escribe tu contraseña"/>
-
-          <label for="rcontraseña">Repita la Contraseña</label>
-          <input type="password" id="rcontraseña" name="Repita laContraseña" placeholder="Escribe la contraseña de nuevo"/>
-
-          <div class="boton">
-            <button type="submit">Registrar</button>
-          </div>
+          <div id="WVE"></div>
+          <label for="correo">
+            <p>Correo</p>
+          </label>
+          <input  id="correo" name="correo" placeholder="Escribe su correo"/>
+          <div id="WVC"></div>
+          <label for="contraseña">
+            <p>Password</p>
+          </label>
+          <input type="password" id="contrasena" name="contrasena" placeholder="Escribe tu password"/>
+          <div id="WVP"></div>
+          <label for="rcontraseña">
+            <p>Repita el password</p>
+          </label>
+          <input type="password" id="rcontrasena" name="repitlaContrasena" placeholder="Escribe el password de nuevo"/>
+          <div id="WVRP"></div>
+            <button type="button" class="boton2" onclick="validar()">REGISTRAR</button>
         </form>
+        <script src="JS/validar.js"></script>
       </div>
       <div class="registro_redes">
-        <h2>O registrate con tu red social favorita</h2>
+        <p>Regístrate con tu red social favorita</p>
       </div>
     </div>
     <div class="Mantente_dia">
-      <div class="busqueda">
         <div class="caja_nomBus">
-          <h3>Mantente al dia</h3>
+          <h3>Mantente al día</h3>
         </div>
         <div class="caja_bus">
           <input type="text" id="subscripcion" name="Subscrip"  placeholder="Suscribirme"/>
-          <button type="submit" name="subscri"> Enviar </button>
+          <button type="submit" class="boton"name="subscri"> Enviar </button>
         </div>
-      </div>
     </div>
     <div class="Final_pag">
       <div class="anuncios">
@@ -97,16 +106,16 @@
         <li>Facturación</li>
         <li>Bolsa de Trabajo</li>
         </div>
-        <address class="anuncios">
+        <div class="anuncios">
           <p>SERVICIO AL CLIENTE</p>
           <li><a class="FAQs" href="Contacto.html">Contacto</a></li>
           <li><a class="FAQs" href="FAQs.html">FAQ's</a></li>
           <li><a class="FAQs" href="devoluciones.html">Devoluciones</a></li>
           <li><a class="FAQs" href="monedero.html">Activar Monedero</a></li>
-        </address>
+        </div>
         <div class="anuncios">
           <p>FORMAS DE PAGO</p>
-          <li>Credito</li>
+          <li>Crédito</li>
           <li>Debito</li>
           <li>Bit coin</li>
         </div>
@@ -123,7 +132,7 @@
     </main>
     <footer class ="pie2">
       <div class="derechos">
-        <p>Caps & Clothes GDL 2017 | Todos los Derechos Reservados. <a href="TYC.html">Términos y Condiciones</a> | Políticas de Privacidad</p>
+        <p class="linea">Caps & Clothes GDL 2017 | Todos los Derechos Reservados. <a href="TYC.html">Términos y Condiciones</a> | Políticas de Privacidad</p>
       </div>
     </footer>
   </body>

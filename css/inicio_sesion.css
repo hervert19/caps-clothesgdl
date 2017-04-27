@@ -5,7 +5,7 @@ font-family: monospace;
 .contenedor
 {
   width: 100%;
-  height: 1100px;
+  height: 1020px;
   justify-content: center;
   background-color: white;
   margin-left: auto;
@@ -43,6 +43,7 @@ font-family: monospace;
   width: 20%;
   height: 15px;
   background-color: transparent;
+  padding: 5px;
   margin: 3px;
 }
 .borde_final
@@ -50,8 +51,10 @@ font-family: monospace;
   width: 20%;
   height: 15px;
   background-color: transparent;
+  padding: 5px;
   margin: 3px;
 }
+
 .barra_superior_second
 {
   display: -webkit-flex;
@@ -155,32 +158,43 @@ font-family: monospace;
   flex-direction: column;
   border-radius: 7px;
   justify-content: center;
-  background-color: lightgrey;
+  background-color: white;
 }
-.uno
-{
-  display: -webkit-flex;
-  display: flex;
+.uno{
   width: 100%;
-  height: 150px;
+  height: 500px;
   border-radius: 7px;
   justify-content: center;
+  flex-flow: column;
   font-size: 18px;
   color: black;
+  text-align: center;
+  padding-top: 35px;
 }
-.dos
-{
-  display: -webkit-flex;
-  display: flex;
-  width: 200%;
-  height: 210px;
-  border-radius: 7px;
-  padding-left: 200px;
+.content{
+  width: 95%;
+  height: 60px;
+  text-align: justify;
+  padding-left: 10px;
+}
+.tipole{
+  font-family: "platino", sans-serif;
+  text-align: center;
+}
+.tipole2{
+  color: black;
+}
+p.tipolep{
+  font-family: "platino", sans-serif;
+  font-size: 15px;
+  text-align: center;
 }
 #Registrar
 {
-  width: 150%;
+  width: 60%;
   height: 50px;
+  margin-left: 100px;
+  margin-top: 50px;
 }
 .caja_02
 {
@@ -195,133 +209,128 @@ font-family: monospace;
 }
 .tres
 {
-  display: -webkit-flex;
-  display: flex;
-  width: 51.72%;
-  height: 210px;
+  width: 90%;
+  height: 400px;
+  border-radius: 7px;
   justify-content: center;
-  margin-left: 150px;
+  flex-flow: column;
+  font-size: 18px;
+  color: black;
+  text-align: justify;
+  padding-top: 35px;
+  padding-left: 45px;
+  background-color: transparent;
 
 }
 #identificador
 {
-  width: 100%;
+  width: 90%;
   height: 30px;
-  margin-top: 10px;
-  margin-bottom: 10px;
+  border-radius: 7px;
 }
 #password
 {
-  margin-top: 10px;
-  width: 100%;
+  width: 90%;
   height: 30px;
-}
-.cuatro
-{
-  display: -webkit-flex;
-  display: flex;
-  width: 100%;
-  height: 210px;
-  margin-left: 240px;
+  border-radius: 7px;
+
 }
 #Ingresar
 {
-width: 13.80%;
-height: 35px;
-}
-.busqueda
-{
-  display: -webkit-flex;
-  display: flex;
-  width: 100%;
-  height: 80px;
-  margin: 10px;
-  color: white;
-  background-color: black;
-  justify-content: center;
-}
-.caja_nomBus{
-  width: 12%;
-
-  height: 20px;
-  color: white;
-  background-color: transparent;
-  padding-top: 15px;
-  }
-  .caja_bus
-  {
-    width: 48%;
-    height: 20px;
-    margin: 10px;
-    padding-top: 10px;
-  }
-  #subscripcion
-  {
-    width: 83.33%;
-    height: 30px;
-    border-radius: 4px;
-  }
-.Final_pag
-{
-  display: -webkit-flex;
-  display: flex;
-  width: 100%;
-  height: 200px;
-  margin: 10;
-  background-color: lightgray;
-  -webkit-justify-content: center;
-  justify-content: center;
-  font-family: monospace;
-  border: 1px solid black;
-  border-radius: 7px;
-}
-
-.anuncios
-{
-  width: 24%;
-  height: 140px;
-  margin: 5px;
-  justify-content: center;
-  padding-left: 10px;
-  color: black;
-  background-color: white;
-  border-radius: 7px;
-  padding-top: 30px;
-  padding-left: 50px;
-}
-.pie2
-{
-  display: -webkit-flex;
-  display: flex;
-  width: 100%;
+  width: 60%;
   height: 50px;
-  background-color: black;
-  justify-content: flex;
+  margin-left: 100px;
+  margin-top: 40px;
 }
-.derechos
-{
-  width: 72%;
-  height: 80px;
-  color: white;
-  padding-left: 27%;
-}
-.enlaces{
-  width: 0.08%;
-  height: 1px;
-  margin: 2px;
-}
+
 .Mantente_dia
 {
   display: -webkit-flex;
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 80px;
   margin-bottom: 20px;
   border-radius: 7px;
   background-color: black;
   font-family: monospace;
   justify-content: center;
 }
+
+.caja_nomBus{
+  width: 20%;
+  height: 20px;
+  color: white;
+  background-color: transparent;
+  text-align: right;
+  margin-top: 15px;
+
+  }
+  .caja_bus
+  {
+    width: 70%;
+    height: 20px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 23px;
+  }
+  #subscripcion
+  {
+    width: 60%;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 20px;
+  }
+  .Final_pag
+  {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 150px;
+    margin: 10;
+    background-color: lightgray;
+    -webkit-justify-content: center;
+    justify-content: center;
+    font-family: monospace;
+    border: 1px solid black;
+    border-radius: 7px;
+  }
+
+  .anuncios
+  {
+    width: 24%;
+    height: 120px;
+    margin: 5px;
+    justify-content: center;
+    padding-left: 10px;
+    color: black;
+    background-color: white;
+    border-radius: 7px;
+    padding-top: 20px;
+    padding-left: 50px;
+  }
+  .pie2
+  {
+    display: -webkit-flex;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .derechos
+  {
+    width: 72%;
+    height: 80px;
+    color: white;
+  }
+.enlaces{
+  width: 0.08%;
+  height: 1px;
+  margin: 2px;
+}
+
 a{
 	text-decoration: none;
   color: white;
@@ -332,10 +341,55 @@ a.FAQs{
   color: black;
   font-family: monospace;
 }
+a.recupe{
+  color: black;
+}
 p{
-  font-family: "Palatino", sans-serif;
+  font-family: monospace;
+}
+.boton{
+  background-color: white;
+  color: black;
+  margin-left: 10px;
+  width: 15%;;
+  height: 30px;
+}
+.boton2{
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  width: 25%;;
+  height: 50px;
+}
+.boton3{
+  background-color: black;
+  color: white;
+  margin-left: 10px;
+  width: 50%;;
+  height: 50px;
 }
 li{
-  font-family: "Palatino", sans-serif;
+  font-family: monospace;
   list-style-type: disc;
+}
+.linea{
+    text-align: center;
+}
+#WVC{
+  display: none;
+  font-size: 60%;
+  font-family: monospace;
+  color: red;
+}
+#WVP{
+  display: none;
+  font-size: 60%;
+  font-family: monospace;
+  color: red;
+}
+#WVA{
+  display: none;
+  font-size: 60%;
+  font-family: monospace;
+  color: green;
 }

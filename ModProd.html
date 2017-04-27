@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content= "width=device-width, initial-scale=1, maximum-scale=4">
+    <title>Caps & Clothes GDL</title>
+  <link rel="stylesheet" type="text/css" href="css/ModProd.css"/>
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon"/>
+  <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+  <meta name="viewport" content="width-device-width, user-scalable=no, initial-scale=1.0,maximum-scale-1.0,minimum-scale-1.0">
+  <div class="barra_superior">
+    <div class="inicio_sesion">
+      <p class="borde_izq"></p>
+      <p class="borde_centro1"><img src="image/user.png"></p>
+      <p class="borde_centro2">Mi Perfil</p>
+      <p class="borde_final"><a href="inicio_sesion.html">Cerrar Sesión</a></p>
+    </div>
+  </div>
+</head>
+<body>
+  <main class="contenedor">
+    <div class="barra_superior_second">
+      <div class="logo_cap">
+        <a href="indexAdmin.html"><img src="image/imagen.png"></a>
+      </div>
+    </div>
+    <div class="opciones_busqueda">
+      <div class="opcion">
+      Modificar Productos
+      </div>
+    </div>
+    <div class="caja_menu">
+      <form  action="#" method="post" onsubmit="">
+        <label for="id">
+        <p>Escribe el ID del producto a Modificar</p>
+        </label>
+        <input type="text" id="id" name="id" placeholder="Escribe el id del producto"/>
+          <button type="submit" onclick="validar()" class="boton2"><img src="image/search.png"></button>
+      </form>
+    <div class="caja_chica">
+      <table>
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Color</th>
+            <th>Precio</th>
+            <th>Talla</th>
+            <th>Descripción</th>
+            <th>Cantidad</th>
+            <th>Talla</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>  </td>
+            <td>  </td>
+            <td>  </td>
+            <td>  </td>
+            <td>  </td>
+            <td>  </td>
+            <td>  </td>
+          </tr>
+       </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="sel">
+    </div>
+  </form>
+  <div class="caja_mediana">
+    <label for="id">
+    <p>Elija el elemento a Modificar</p>
+    </label>
+    <select name="OS1" id= "modi" class="sel" onclick="myFunction()">
+      <option value="1">Nombre</option>
+      <option value="2">Fecha</option>
+      <option value="3">color</option>
+      <option value="4">Costo</option>
+      <option value="5">Descripcion</option>
+      <option value="6">Talla</option>
+    </select>
+    <form  action="#" method="post" onsubmit="">
+      <div class="sel">
+      </div>
+      <p id="myp"> </p>
+      <input type="text" id="nuevo" name="Nuevo" placeholder="Escribe el nuevo dato"/>
+      <div class="sel">
+      </div>
+        <button type="submit" class="boton" onclick="validar()">ACEPTAR</button>
+    </form>
+    <div  class="editor">
+      <a href="indexAdmin.html">CANCELAR</a>
+    </div>
+    <script src="JS/validacioncap.js">
+    </script>
+  </div>
+    </div>
+    <div class="opciones_busqueda">
+      <div class="opcion">
+      </div>
+    </div>
+  </main>
+  <footer class ="pie2">
+    <div class="derechos">
+      <p class="linea">Caps & Clothes GDL 2017 | Todos los Derechos Reservados. <a href="TYC.html">Términos y Condiciones</a> | Políticas de Privacidad</p>
+    </div>
+  </footer>
+  <script src="JS/slider.js"></script>
+</body>
+</html>

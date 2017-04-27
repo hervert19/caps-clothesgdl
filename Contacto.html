@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="utf-8">
   <title>Caps & Clothes GDL</title>
   <link rel="stylesheet" type="text/css" href="css/Contacto.css"/>
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
+  <link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon"/>
   <div class="barra_superior">
     <div class="inicio_sesion">
-      <p class="borde_izq">Envio Gratuito</p>
-      <p class="borde_centro"><a href="Contacto.html">Atencion a Clientes</a></p>
-      <p class="borde_final"><a href="inicio_sesion.html">Iniciar Sesion</a></p>
+      <p class="borde_izq"></p>
+      <p class="borde_centro"><a href="Contacto.html">Atención a Clientes</a></p>
+      <p class="borde_final"><a href="inicio_sesion.html">Iniciar Sesión</a></p>
     </div>
   </div>
 </head>
@@ -16,12 +17,12 @@
   <main class="contenedor">
     <div class="barra_superior_second">
       <div class="logo_cap">
-        <img src="image/Logo.png">
+        <a href="index.html"><img src="image/Logo.png"></a>
       </div>
       <div class="espacio">
-        <form class="" action="Hombre.html" method="get">
-          <input type="search" id = "bus" name="bus" results="3" placeholder="Escribe tu busqueda!!">
-          <button type="submit" name="Buscar">Buscar</button>
+        <form class="" action="Contacto.html" method="get">
+          <input type="search" id = "bus" name="bus" results="3" placeholder="Escribe tu búsqueda!">
+          <button type="submit" class="boton"name="Buscar">Buscar</button>
         </form>
       </div>
       <div class="carrito_com">
@@ -31,7 +32,7 @@
     </div>
     <div class="opciones_busqueda">
       <div class="opcion">
-      <a href="PaginaPrincipal.html">INICIO</a>
+      <a href="index.html">INICIO</a>
     </div>
     <div class="opcion">
       <a href="Mujeres.html">MUJER</a>
@@ -42,66 +43,66 @@
     <div class="opcion">
         <a href="Accesorios.html">ACCESORIOS</a>
     </div>
-    <div class="opcion">
-      BRAND
-    </div>
   </div>
     <div class="caja_total">
       <div class="caja_inicio">
           <div class="caja1">
             <div class="caja01">
-              <a href="Contacto.html"><h4> Contactanos</h4></a>
+              <a href="Contacto.html"><h4> Contáctanos</h4></a>
             </div>
             <div class="caja01">
               <a href="FAQs.html"><h4 >FAQ's</h4></a>
             </div>
             <div class="caja01">
               <a href="TYC.html">
-            <h4>Terminos y Condiciones</h4></a>
+            <h4>Términos y Condiciones</h4></a>
             </div>
             <div class="caja01">
-              <h4>Aviso de privacidad</h4>
+              <a href="monedero.html">
+              <h4>Monedero Electrónico</h4></a>
             </div>
             <div class="caja01">
               <a href="devoluciones.html">
               <h4 >Devoluciones</h4></a>
             </div>
         </div>
-          <address class="caja2">
+          <div class="caja2">
             <h1 class="Titulo">Caps & Clothes</h<>
             <h2 class="Subtitulo">CONTACTANOS</h4>
-            <h3 >Puedes llamarnos al telefono </h3>
-            <h4 >  * Mx (55) 54 58 21 23 </h4>
-            <h3 >Nuestros horarios de atención son:</h3>
-            <h4>Lunes a Sábado de 8:00 a 20:00 hrs, Domingo de 9:00 a 18:00 hrs</h4>
-          </address>
-        </div>
-
-        <div class="Caja_abajo">
-        <div class="registro">
-          <h4>Para mas  Informacion</h4>
-            <form action="/home/roy19/CACG.git/html/Contacto.html" method="post">
-              <label for="nombre">Nombre</label>
-              <input type="text" id="nombre" name="Nombre" placeholder="Escribe tu nombre"/>
-              <label for="email">E-mail</label>
-              <input type="email" id="email" name="Email" placeholder="Ingresa tu direccion de correo electronico"/>
-              <label for="mensaje">Mensaje</label>
-              <input type="text" id="mensaje" name="Mensaje" placeholder="Mensaje..."/>
-              <button type="submit">Enviar</button>
-            </form>
-        </div>
+            <p class="tipo">Puedes llamarnos al teléfono </p>
+            <p class="tipo">  - Mx (55) 54 58 21 23 </p>
+            <p class="tipo">Nuestros horarios de atención son:</p>
+            <p  class="tipo">Lunes a Sábado de 8:00 a 20:00 hrs, Domingo de 9:00 a 18:00 hrs</p>
+            <h2 class="Subtitulo">PARA MAYOR INFORMACION</h4>
+            <p  class="tipo">Envíanos un mensaje con tu duda y te responderemos de inmediato</p>
+            <div class="registro">
+                <form action="Contacto.html" method="post">
+                  <label for="nombre"><p class="tipo">Nombre:</p></label>
+                  <input type="text" id="nombre" name="Nombre" placeholder="Escribe tu nombre"/>
+                  <div id="WVN"></div>
+                  <label for="email"><p class="tipo">E-mail:</p></label>
+                  <input type="email" id="email" name="Email" placeholder="Ingresa tu dirección de correo electrónico"/>
+                  <div id="WVC"></div>
+                  <label for="mensaje"><p class="tipo">Mensaje:</p></label>
+                  <input type="text" id="mensaje" name="Mensaje" placeholder="Mensaje..."/>
+                  <div id="WVM"></div>
+                  <button class="boton2" type="button" onclick="validar()">Enviar</button>
+                </form>
+                <script
+                 src="JS/validarContac.js">
+                </script>
+            </div>
+          </div>
         </div>
       </div>
       <div class="Mantente_dia">
-        <div class="busqueda">
-          <div class="caja_nomBus">
-            <h3>Mantente al dia</h3>
+        <div class="caja_nomBus">
+            <h3>Mantente al día</h3>
           </div>
           <div class="caja_bus">
             <input type="text" id="subscripcion" name="Subscrip"  placeholder="Suscribirme"/>
-            <button type="submit" name="subscri"> Enviar </button>
+            <button type="submit" class="boton"name="subscri"> Enviar </button>
           </div>
-        </div>
       </div>
       <div class="Final_pag">
         <div class="anuncios">
@@ -110,16 +111,16 @@
           <li>Facturación</li>
           <li>Bolsa de Trabajo</li>
           </div>
-          <address class="anuncios">
+          <div class="anuncios">
             <p>SERVICIO AL CLIENTE</p>
             <li><a class="FAQs" href="Contacto.html">Contacto</a></li>
             <li><a class="FAQs" href="FAQs.html">FAQ's</a></li>
             <li><a class="FAQs" href="devoluciones.html">Devoluciones</a></li>
             <li><a class="FAQs" href="monedero.html">Activar Monedero</a></li>
-          </address>
+          </div>
           <div class="anuncios">
             <p>FORMAS DE PAGO</p>
-            <li>Credito</li>
+            <li>Crédito</li>
             <li>Debito</li>
             <li>Bit coin</li>
           </div>
@@ -136,7 +137,7 @@
       </main>
       <footer class ="pie2">
         <div class="derechos">
-          <p>Caps & Clothes GDL 2017 | Todos los Derechos Reservados. <a href="TYC.html">Términos y Condiciones</a> | Políticas de Privacidad</p>
+          <p class="linea">Caps & Clothes GDL 2017 | Todos los Derechos Reservados. <a href="TYC.html">Términos y Condiciones</a> | Políticas de Privacidad</p>
         </div>
       </footer>
       </body>

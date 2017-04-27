@@ -1,0 +1,339 @@
+*{
+font-family: monospace;
+}
+
+.contenedor
+{
+  width: 100%;
+  height: 1410px;
+  justify-content: center;
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.barra_superior
+{
+  width: 100%;
+  height: 42px;
+  background-color: black;
+  justify-content: flex-end;
+  border-radius: 7px;
+  font-family: monospace;
+  color: white;
+}
+.inicio_sesion
+{
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 15px;
+  margin: 5px;
+  background-color: transparent;
+}
+.borde_izq
+{
+  width: 60%;
+  height: 15px;
+  background-color: transparent;
+  padding: 5px;
+  margin: 3px;
+}
+.borde_centro1
+{
+  width: 2%;
+  height: 15px;
+  background-color: transparent;
+
+  margin: 3px;
+}
+.borde_centro2
+{
+  width: 12%;
+  height: 15px;
+  background-color: transparent;
+  padding: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+  margin: 3px;
+}
+.borde_final
+{
+  width: 10%;
+  height: 15px;
+  background-color: transparent;
+  padding: 5px;
+  padding-top: 10px;
+  margin: 3px;
+}
+.barra_superior_second
+{
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  background-color: transparent;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.logo_cap
+{
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 400px;
+  color: white;
+  background-color: transparent;
+  border-radius: 7px;
+  justify-content: center;
+  align-content: center;
+  margin-bottom: 10px;
+}
+
+.opciones_busqueda
+{
+  display: -webkit-flex;
+  display: flex;
+  width: 85%;
+  height: 30px;
+  background-color: black;
+  align-content: center;
+  border-radius: 8px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.opcion {
+  width: 18%;
+  height: 30px;
+  color: white;
+  justify-content: center;
+  background-color: transparent;
+  padding-top: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.boton{
+  background-color: black;
+  color: white;
+  margin-left: 150px;
+  width: 40%;;
+  height: 40px;
+  margin-bottom: 20px;
+}
+.editor{
+  text-align: center;
+  background-color: black;
+  color: white;
+  margin-left: 150px;
+  width: 40%;;
+  height: 28px;
+  margin-bottom: 20px;
+  padding-top: 12px;
+}
+.caja_menu{
+  margin-top: 10px;
+  background-color: white;
+  width: 50%;
+  height: 860px;
+  border-color: black;
+  border-style: double;;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-left: 150px;
+}
+.caja_opciones{
+  color:white;
+  margin-top: 20px;
+  background-color: black;
+  text-align: center;
+  width: 60%;
+  height: 35px;
+  padding-top: 15px;
+  align-content: center;
+  margin-left: auto;
+  border-radius: 7px;
+  margin-right: auto;
+}
+.Mantente_dia
+{
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 80px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  background-color: black;
+  font-family: monospace;
+  justify-content: center;
+}
+
+.caja_nomBus{
+  width: 20%;
+  height: 20px;
+  color: white;
+  background-color: transparent;
+  text-align: right;
+  margin-top: 15px;
+
+  }
+  .caja_bus
+  {
+    width: 70%;
+    height: 20px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 23px;
+  }
+  #subscripcion
+  {
+    width: 60%;
+    height: 30px;
+    border-radius: 4px;
+    margin-left: 20px;
+  }
+
+.Final_pag
+{
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 150px;
+  margin: 10;
+  background-color: lightgray;
+  -webkit-justify-content: center;
+  justify-content: center;
+  font-family: monospace;
+  border: 1px solid black;
+  border-radius: 7px;
+}
+
+.anuncios
+{
+  width: 24%;
+  height: 120px;
+  margin: 5px;
+  justify-content: center;
+  padding-left: 10px;
+  color: black;
+  background-color: white;
+  border-radius: 7px;
+  padding-top: 20px;
+  padding-left: 50px;
+}
+.pie2
+{
+  display: -webkit-flex;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  justify-content: center;
+  align-content: center;
+}
+.derechos
+{
+  width: 72%;
+  height: 80px;
+  color: white;
+}
+
+.enlaces{
+  width: 0.08%;
+  height: 1px;
+  margin: 2px;
+}
+a{
+	text-decoration: none;
+  color: white;
+  font-family: monospace;
+}
+a.FAQs{
+	text-decoration: none;
+  color: black;
+}
+.linea{
+    text-align: center;
+}
+p{
+  font-family: monospace;
+}
+li{
+  font-family: monospace;
+  list-style-type: disc;
+}
+#nombre{
+  background-color: transparent;
+  width: 70%;
+  height: 30px;
+  margin: 5px;
+  border-radius: 7px;
+}
+#fecha{
+  background-color: transparent;
+  width: 70%;
+  height: 30px;
+  margin: 5px;
+  border-radius: 7px;
+}
+#id{
+  background-color: transparent;
+  width: 70%;
+  height: 30px;
+  margin: 5px;
+  border-radius: 7px;
+}
+#precio{
+  background-color: transparent;
+  width: 70%;
+  height: 30px;
+  margin: 5px;
+  border-radius: 7px;
+}
+#descripcion{
+  background-color: transparent;
+  width: 70%;
+  height: 30px;
+  margin: 5px;
+  border-radius: 7px;
+}
+.sel{
+  background-color: transparent;
+  width: 35%;
+  height: 30px;
+  margin: 5px;
+  border-radius: 7px;
+}
+.sel2{
+  background-color: transparent;
+  width: 35%;
+  height: 10px;
+  margin: 5px;
+  border-radius: 7px;
+}
+#seleccionar{
+  background-color: transparent;
+  width: 35%;
+  height: 30px;
+  margin: 5px;
+  border-radius: 7px;
+  display: none;
+}
+#seleccionar1{
+  background-color: transparent;
+  width: 35%;
+  height: 30px;
+  margin: 5px;
+  border-radius: 7px;
+  display: none;
+}
+#seleccionar2{
+  background-color: transparent;
+  width: 35%;
+  height: 30px;
+  margin: 5px;
+  border-radius: 7px;
+  display: none;
+}

@@ -5,7 +5,7 @@ font-family: monospace;
 .contenedor
 {
   width: 100%;
-  height: 1620px;
+  height: 1850px;
   justify-content: center;
   background-color: white;
   margin-left: auto;
@@ -43,6 +43,7 @@ font-family: monospace;
   width: 20%;
   height: 15px;
   background-color: transparent;
+  padding: 5px;
   margin: 3px;
 }
 .borde_final
@@ -50,6 +51,7 @@ font-family: monospace;
   width: 20%;
   height: 15px;
   background-color: transparent;
+  padding: 5px;
   margin: 3px;
 }
 .barra_superior_second
@@ -135,14 +137,23 @@ font-family: monospace;
 .imagenPromo{
    width: 100%;
    height: 500px;
+   border-radius: 7px;
 }
 .imagenFotos{
-  width: 100%;
-  height: 140px;
+  width: 75%;
+  height: 170px;
 }
 .imagenCata{
   width: 100%;
-  height: 200px;
+  height: 450px;
+  border-radius: 7px;
+}
+.boton{
+  background-color: white;
+  color: black;
+  margin-left: 10px;
+  width: 15%;;
+  height: 30px;
 }
 .promociones {
   display: -webkit-flex;
@@ -153,33 +164,51 @@ font-family: monospace;
   background-color: lightgrey;
   border-radius: 7px;
 }
+#box-imagen{
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 500px;
+  background-color: lightgrey;
+  border-radius: 7px;
+}
+#box-imagen img
+{
+position: relative;
+width: 100%;
+height: 100%;
+}
 .top {
   display: -webkit-flex;
   display: flex;
   justify-content: center;
   font: 110% sans-serif;
   width: 100%;
-  height: 50px;
+  height: 40px;
   background-color: black;
   color: white;
   border-radius: 7px;
+
 }
 .top_ventas {
   display: -webkit-flex;
   display: flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
-  height: 150px;
-  background-color: lightgrey;
+  height: 230px;
   border-radius: 7px;
 }
 .fotos {
   background-color: white;
-  width: 24%;
-  height: 140px;
+  width: 21%;
+  height: 160px;
   margin: 5px;
   color: black;
+  margin-top: 5px;
+  padding-left: 40px;
   border-radius: 7px;
 }
 .catalagos {
@@ -188,14 +217,14 @@ font-family: monospace;
   -webkit-justify-content: center;
   justify-content: center;
   width: 100%;
-  height: 250px;
-  background-color: lightgray;
+  height: 500px;
+  background-color: white;
   border-radius: 7px;
 }
 .cata {
-  background-color: lightgrey;
-  width: 32%;
-  height: 200px;
+  background-color: green;
+  width: 30%;
+  height: 450px;
   margin: 25px;
   border-radius: 7px;
 }
@@ -204,43 +233,37 @@ font-family: monospace;
   display: -webkit-flex;
   display: flex;
   width: 100%;
-  height: 100px;
+  height: 80px;
   margin-bottom: 20px;
   border-radius: 7px;
   background-color: black;
   font-family: monospace;
   justify-content: center;
 }
-.busqueda
-{
-  display: -webkit-flex;
-  display: flex;
-  width: 100%;
-  height: 50px;
-  margin: 10px;
-  color: white;
-  background-color: transparent;
-  justify-content: center;
-}
+
 .caja_nomBus{
-  width: 12%;
+  width: 20%;
   height: 20px;
   color: white;
   background-color: transparent;
-  padding-top: 15px;
+  text-align: right;
+  margin-top: 15px;
+
   }
   .caja_bus
   {
-    width: 48%;
+    width: 70%;
     height: 20px;
-    margin: 10px;
-    padding-top: 10px;
+    background-color: transparent;
+    margin-left: 20px;
+    margin-top: 23px;
   }
   #subscripcion
   {
-    width: 83.33%;
+    width: 60%;
     height: 30px;
     border-radius: 4px;
+    margin-left: 20px;
   }
 
 .Final_pag
@@ -248,7 +271,7 @@ font-family: monospace;
   display: -webkit-flex;
   display: flex;
   width: 100%;
-  height: 200px;
+  height: 150px;
   margin: 10;
   background-color: lightgray;
   -webkit-justify-content: center;
@@ -261,14 +284,14 @@ font-family: monospace;
 .anuncios
 {
   width: 24%;
-  height: 140px;
+  height: 120px;
   margin: 5px;
   justify-content: center;
   padding-left: 10px;
   color: black;
   background-color: white;
   border-radius: 7px;
-  padding-top: 30px;
+  padding-top: 20px;
   padding-left: 50px;
 }
 .pie2
@@ -278,14 +301,14 @@ font-family: monospace;
   width: 100%;
   height: 50px;
   background-color: black;
-  justify-content: flex;
+  justify-content: center;
+  align-content: center;
 }
 .derechos
 {
   width: 72%;
   height: 80px;
   color: white;
-  padding-left: 27%;
 }
 
 .enlaces{
@@ -301,14 +324,36 @@ a{
 a.FAQs{
 	text-decoration: none;
   color: black;
-  font-family: monospace;
+}
+.linea{
+    text-align: center;
 }
 p{
-  font-family: "Palatino", sans-serif;
+  font-family: monospace;
 }
 li{
-  font-family: "Palatino", sans-serif;
+  font-family: monospace;
   list-style-type: disc;
+}
+h3{
+  color: white;
+  text-align: center;
+}
+.cajaprecio{
+  width: 90px;
+  height: 40px;
+  background-color: black;
+  margin-left: 230px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+.cajaprecio1{
+  width: 90px;
+  height: 40px;
+  background-color: black;
+  margin-bottom: 20px;
+  text-align: center;
+
 }
 @media screen and (min-device-width : 480px) and (max-device-width : 767px)
 {
