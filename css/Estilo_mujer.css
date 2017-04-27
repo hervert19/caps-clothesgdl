@@ -297,21 +297,21 @@ h4, h2{
   text-align: center;
 }
 h3, h4{
-  color: white;
+  color: black;
   text-align: center;
 }
 .cajaprecio{
-  width: 90px;
+  width: 25%;
   height: 40px;
-  background-color: black;
-  margin-left: 230px;
+  background-color: transparent;
   margin-bottom: 20px;
-  text-align: center;
+  text-align:left;;
 }
 .cajaprecio1{
-  width: 90px;
+  width: 25%;
   height: 40px;
-  background-color: black;
+  background-color: transparent;
   margin-bottom: 20px;
   text-align: center;
+
 }
